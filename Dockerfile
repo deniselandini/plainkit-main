@@ -1,8 +1,15 @@
 FROM php:8.2-apache
 
 # Enable required extensions
-RUN docker-php-ext-install pdo pdo_mysql mbstring
-
+RUN apt-get update && apt-get install -y \
+    libonig-dev \
+    libzip-dev \
+    zip \
+    unzip \
+    git \
+    && docker-php-ext-install mbstring pdo pdo_mysql zip \
+    && a2enmod rewrite \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
 # Enable Apache rewrite
 RUN a2enmod rewrite
 
