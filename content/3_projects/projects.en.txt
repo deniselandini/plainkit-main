@@ -12,26 +12,23 @@ Projects-list:
     - file://yuqqhodhngfhgckc
   project_categories: Graduates 2021
   project_subjects: Choreography
-  project_description_left: >
-    "On the trail" describes the situation
-    after a disruption, the moment when
-    things begin to fall back into place
-    after being shaken or even shattered. In
-    this moment of apparent chaos, where
-    normality no longer functions or only
-    functions to a limited extent, lies the
-    potential to sense the essence of things
-    and redefine normality.
-  project_description_right: >
-    Structures develop, habits become
-    ingrained. What is perceived as normal
-    is the result of a constant, sometimes
-    unreflective, reproduction of what is
-    considered right, desirable, and
-    productive. We function and forget to
-    question.
+  project_description_left: |
+    It's almost here – just a few weeks until the premiere of this year's graduation project! In two programs, each featuring different graduating classes and choreographers, you can immerse yourselves in the works based on this year's theme, "On the Trail," and be inspired!
+    
+    Each year, the graduation project, the final examination performance of our graduates, takes place under a different theme. Raul Valdez, artistic director of CDSH – Contemporary Dance School Hamburg, draws inspiration for the theme from the energy and dynamism of each graduating class. "On the Trail" symbolizes the essence of the work of the 2021 graduating class, which crystallized during their three years of training, and serves as both a guiding theme and a space for experimentation for all the choreographers.
+    
+    "On the Trail" describes the situation after a turning point, the moment when things come together again after being shaken or even broken. In this moment of apparent chaos, where normality no longer functions or only functions to a limited extent, lies the potential to sense the essence of things and redefine normality.
+  project_description_right: |
+    Structures develop, habits become ingrained. What is perceived as normal is the result of a constant, sometimes unreflective, reproduction of what is considered right, desirable, and productive. We function and forget to question.
+    
+    When a system is shaken, the possibility arises to look into the voids between the shards, to consider the other side of our reality, to perceive individual aspects that were not visible in the functioning system.
+    
+    What does it mean to continue after such a shock, in and after a turbulent time? What can we learn? How do we rethink and adapt to new circumstances, how do we rebel against the old, how do we give a voice to the forgotten? In any case, the result is a transformation, a new awareness, and the beginning of a new path.
+    
+    This year, our year-end performances can also take place live in the theatre – even with a small audience (50 spectators per performance)!
   project_impressions:
     - file://yuqqhodhngfhgckc
+    - file://2sngamgpeasoo1ir
 - 
   project_id: reset
   project_name: Final Project
@@ -40,16 +37,8 @@ Projects-list:
     - file://urh1ou3wqlvc26ls
   project_categories: Graduates 2022
   project_subjects: Choreography
-  project_description_left: "on the trail beschreibt die Situation nach einem Einschnitt, den Moment, wenn sich Dinge wieder zusammenfügen, nachdem sie erschüttert wurden oder sogar zerbrochen sind. In diesem Moment des scheinbaren Chaos', in welchem die Normalität nicht mehr oder nur bedingt funktioniert, liegt ein Potenzial, die Essenz der Dinge zu erahnen und Normalität neu zu definieren."
-  project_description_right: >
-    Strukturen entwickeln sich, Gewohnheiten
-    manifestieren sich. Was als normal
-    wahrgenommen wird, ist Resultat einer
-    steten mitunter unreflektierten
-    Reproduktion dessen, was als richtig,
-    erstrebenswert und produktiv gilt. Wir
-    funktionieren und vergessen in Frage zu
-    stellen.
+  project_description_left: teato
+  project_description_right: teato
   project_impressions:
     - file://urh1ou3wqlvc26ls
 - 
@@ -60,21 +49,8 @@ Projects-list:
     - file://pkcw7ye5zkypcmme
   project_categories: 2nd Schoolyear_2023
   project_subjects: Solo project
-  project_description_left: |
-    Utopia is a place of longing, projection of our dreams and desires, a promise and the reason why we continue, transcend and move forward.
-    
-    „Utopia lies at the horizon.
-    When I draw nearer by two steps,
-    it retreats two steps.
-    If I proceed ten steps forward,
-    It swiftly slips ten steps ahead.
-    No matter how far I go, I can never reach it.
-    What, then, is the purpose of utopia?
-    It is to cause us to advance.“ (Eduardo Galeano)
-  project_description_right: |
-    14 human beings share in short pieces their paths of what’s underneath their own utopias: the steps, the obstacles, the fears, the achievements, their trips and all that lies under the impulse to keep moving forward.
-    
-    What’s under your utopia?
+  project_description_left: teato
+  project_description_right: teato
   project_impressions:
     - file://pkcw7ye5zkypcmme
 - 
@@ -85,14 +61,18 @@ Projects-list:
     - file://tuvhiiqjr1nwfq17
   project_categories: ""
   project_subjects: Solo project
-  project_description_left: |
-    The central examination requirement in the second year of training at CDSH consists of creating an original short production. This year, 19 dancers developed short pieces, which, under the theme "What does Looking Taste Like?", explore a wide range of topics.
-    
-    The Ho’Omau class invites you to embark on a delicious journey through three different dinners, each with a carefully assembled six-course meal. A variety of flavors is guaranteed to delight even the most refined and delicate appetite. You will taste coldness and darkness, splashed with a dash of tenderness, as well as warmth and joy, accompanied by vibrant colors and aromas. It will surprise and satisfy your desires.
+  project_description_left: >
+    The central examination requirement in
+    the second year of the CDSH program
+    consists of creating an original short
+    production. This year, 19 dancers
+    developed short pieces, which, under the
+    theme "What does Looking Taste Like?",
+    explore a wide range of topics.
   project_description_right: |
-    Whatever your eyes crave, we are.
+    The **Ho’Omau class** invites you to embark on a delicious journey of three different dinners, each featuring a carefully assembled six-course meal. A variety of flavors is guaranteed to delight even the most refined and discerning palate. You will taste coldness and darkness, splashed with a dash of tenderness, as well as warmth and joy, accompanied by vibrant colors and aromas. A feast for the senses.
     
-    In composition workshops led by Jascha Viehstädt and Raymond Liew Jin Pin, the trainees acquired the methods and tools to create their own pieces. Our artistic director, Raul Valdez, provided mentoring sessions, as he does every year, helping them find the right format and offering impetus for the implementation of their concepts and ideas. Björn Salzer supported the choreographers in developing and realizing their lighting concepts, while dramaturgical consultation was provided by Matthias Quabbe as part of a dramaturgy seminar. Javier Báez, Sina Rundel, and Josefine Taape handled the areas of consulting, logistics, and production.
+    *Whatever your eyes crave, we are.*
   project_impressions:
     - file://tuvhiiqjr1nwfq17
 - 
@@ -104,17 +84,19 @@ Projects-list:
   project_categories: Graduates 2025
   project_subjects: Choreography
   project_description_left: |
-    Each year, the final project, the culminating examination performance of our graduates, takes place under a different theme. Raul Valdez, artistic director of CDSH – Contemporary Dance School Hamburg, draws inspiration for the theme from the energy and dynamism of each graduating class. This year, "meeting point" is both the guiding theme and a space for experimentation for all choreographers and dancers.
+    Each year, our Work in Progress and graduation performances take place under a different theme. Raul Valdez, artistic director of CDSH – Contemporary Dance School Hamburg, draws inspiration for the theme from the energy and dynamism of the respective graduating class. This year, “meeting point” is both the overarching theme and a space for experimentation for all choreographers and dancers.
     
-    A "meeting point" is primarily a specific place in time and space. When people come together, they do so not only from different geographical directions, but also with diverse social backgrounds, education, cultures, and religious and political convictions. A meeting point is therefore not just a place of arrival, but also a place of departure: here, people share their different perspectives and ideals and leave with new outlooks.
+    The “Work in Progress” performances offer a glimpse into the work of the upcoming graduation project in summer 2025.
     
-    In antiquity, it was a place in the centers of city-states where people with diverse, often opposing, opinions and perspectives could come together to discuss and shape political reality. A meeting place that marks the birthplace of modern democracy.
+    A “meeting point” is primarily a specific place in time and space. In antiquity, it was a place in the centers of city-states where people with diverse, often opposing, opinions and perspectives could come together to discuss and shape political reality. A meeting point that marks the birthplace of modern democracy.
+    
+    When people come together, they do so not only from different geographical directions, but also with different social backgrounds, education, cultures, and religious and political convictions. A meeting place is therefore not just a place to arrive, but also a place of departure: Here, people share their diverse perspectives and ideals and leave with new outlooks.
   project_description_right: |
     The openness to see and hear one another requires an awareness of the complexity of reality, of contradictions, gray areas, and overlaps. True solutions do not lie in crude oversimplifications, rigid ideologies, and the demonization of opposing views, but in the nuances that lie between stereotypes and extremes.
     
-    In times when fronts are hardening, populist rhetoric is mobilizing people and creating political realities, coming together is of particular importance. The world is not made up of a series of absolutes, but of a web of different truths. The only way to reconcile them is to listen to one another and meet one another with empathy.
+    In times when fronts are hardening, populist rhetoric is mobilizing people, and political realities are being shaped, coming together is of particular importance. The world is not made up of a series of absolutes, but of a web of different truths. The only way to reconcile them is to listen to one another and to meet each other with empathy.
     
-    Last but not least, we also find such meeting places within ourselves, when different aspects of the self enter into dialogue: our own past and present, different emotional states, or conflicting desires and values.
+    Last but not least, we also find such meeting points within ourselves, when different aspects of the self enter into a dialogue: our own past and present, different emotional states, or contradictory desires and values.
   project_impressions:
     - file://illdyjnv0svddgil
 - 
@@ -125,16 +107,8 @@ Projects-list:
     - file://lvh7fszsiupmmejf
   project_categories: 2nd Schoolyear 2025
   project_subjects: Solo project
-  project_description_left: |
-    The central examination requirement in the second year of training at CDSH consists of the creation of an original short production. This year, 22 dancers developed short pieces, which, under the theme of "APPERCEPTION," explore a wide range of topics.
-    
-    Spilled ink on the paper. A picture is forming. Is it a butterfly? Two people holding hands?
-    
-    How can I tell the difference between an objective truth and my subjective interpretation of it? Is there even such a thing as objective when we all look at the world through our own biases?
-  project_description_right: |
-    "The question is not what you look at, but what you see." – This is Apperception.
-    
-    In composition workshops with Jascha Viehstädt and Raymond Liew Jin Pin, as well as with Claudia Ferrando and Lisa Hofmann, the trainees were given the methods and tools to realize their own pieces. Our artistic director, Raul Valdez, provided mentoring sessions, as he does every year, helping them find the right format and offering impetus for the implementation of their concepts and ideas. Björn Salzer supported the choreographers in developing and realizing their lighting concepts, Claudia Ferrando in music editing and sound design, and dramaturgical consultation was provided through a dramaturgy seminar led by Matthias Quabbe. Consulting, logistics, and production were handled by Javier Báez, Sina Rundel, and Josefine Taape.
+  project_description_left: teato
+  project_description_right: teato
   project_impressions:
     - file://lvh7fszsiupmmejf
 

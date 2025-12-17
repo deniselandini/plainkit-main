@@ -99,9 +99,10 @@ if ($searchId) {
             'headline' => $page->teachers_headline()->value(),
             'text' => $page->teachers_text()->value(),
         ],
-        'contact' => [
-            'headline' => $page->contact_headline()->value(),
-            'text' => $page->contact_text()->value(),
+        'footerCta' => [
+            'show' => $page->show_footer_cta()->toBool(),
+            'title' => $site->global_cta_title()->value(),
+            'text' => $site->global_cta_text()->value()
         ]
     ];
 

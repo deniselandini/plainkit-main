@@ -1,0 +1,40 @@
+Title: auditions
+
+----
+
+Header-title: Auditions
+
+----
+
+Header-intro: If you are interested in our entrance exams, you can register for the video audition. It is equivalent to an on-site audition and essentially consists of submitting videos, which we use as the basis for our evaluation.
+
+----
+
+Header-image: - file://x7viidbvw54comvj
+
+----
+
+Auditions-list:
+
+- 
+  audition_date: 2026-01-01
+  audition_place: Rotterdam
+- 
+  audition_date: 2025-01-16
+  audition_place: Hamburg
+
+----
+
+Auditions-active: true
+
+----
+
+Download-link-text: Download Checklist 2025
+
+----
+
+Download-file: - file://m6bkyjetvptutg8k
+
+----
+
+Uuid: l5tnadrtczkltxa7

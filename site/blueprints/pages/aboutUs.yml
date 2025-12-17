@@ -15,6 +15,11 @@ tabs:
       header_text:
         label: Intro Text
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
         size: small
       header_image:
         label: Header Image
@@ -31,9 +36,19 @@ tabs:
       description_left:
         label: Left Column Text
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
       description_right:
         label: Right Column Text
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
 
       # --- SECTION 3: BANNER 1 ---
       line_2:
@@ -58,6 +73,11 @@ tabs:
           text:
             label: Text
             type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
           image:
             label: Image
             type: files
@@ -107,9 +127,19 @@ tabs:
       concept_text_left:
         label: Left Text (Quote Start)
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
       concept_text_right:
         label: Right Text (Quote End)
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
       concept_image:
         label: Director Image
         type: files

@@ -15,6 +15,11 @@ tabs:
       intro_text:
         label: Introductory Text
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
       header_image:
         label: Header Image
         type: files
@@ -35,6 +40,11 @@ tabs:
       leadership_text:
         label: Leadership Text
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
 
       # --- SECTION 3: TEAM MEMBERS (Staff) ---
       line_2:
@@ -65,14 +75,22 @@ tabs:
           member_biography_left:
             label: Biography / Vita (left side)
             type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
             size: medium
-            buttons: false
             help: Detailed biography for the member's dedicated page.
           member_biography_right:
             label: Biography / Vita (right side)
             type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
             size: medium
-            buttons: false
             help: Detailed biography for the member's dedicated page.
           member_image:
             label: Profile Picture
@@ -110,11 +128,21 @@ tabs:
       memoriam_text_left:
         label: Left Text (e.g., With great sorrow...)
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
         width: 1/2
 
       memoriam_text_right:
         label: Right/Bottom Text (e.g., Rest in peace...)
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
         width: 1/2
 
       memoriam_image:
@@ -137,6 +165,11 @@ tabs:
       teachers_text:
         label: General Teachers Introductory Text
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
       
       # --- SECTION 6: TEACHER LIST ---
       line_5:
@@ -167,6 +200,11 @@ tabs:
           member_biography:
             label: Biography / Vita
             type: textarea
+            buttons: 
+            - bold
+            - italic
+            - ul
+            - ol
             size: large
             buttons: false
             help: Detailed biography for the docent's dedicated page (optional).
@@ -193,6 +231,8 @@ tabs:
               value: "{{ item.name }}"
 
       # --- SECTION 7: CONTACTS ---
+      line_6:
+        type: line
       footer_cta:
         extends: fields/footer_cta
 

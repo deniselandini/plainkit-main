@@ -28,8 +28,7 @@ Team-members:
   member_id: javier_báez
   member_name: Javier Báez
   member_biography_left: |
-    JAVIER BÁEZ, born in Mexico, began studying ballet and modern dance in San Luis Potosì at the Escuela Estatal de Danza. He graduated from the school of the Ballet Independiente in Mexico City. He performed on numerous national and international tours and gave many guest appearances.
-    
+    **JAVIER BÁEZ**, born in Mexico, began studying ballet and modern dance in San Luis Potosì at the Escuela Estatal de Danza. He graduated from the school of the Ballet Independiente in Mexico City. He performed on numerous national and international tours and gave many guest appearances.
     As a dancer, Javier worked with the Ballett Independiente, at the State Theater Lübeck, the Metropol Theater Berlin and with the Tanzcompany Lübeck as well as TanzOrtNord and gave guest performances at the Hamburg State Opera.
   member_biography_right: >
     In 1996, Javier began teaching at the

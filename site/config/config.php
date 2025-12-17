@@ -21,6 +21,23 @@ return [
                 }
             ],
 
+            // HOME
+            [
+                'pattern' => 'home',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    $page = page('home');
+                    if (!$page) {
+                        return new Response('Home page not found', 'application/json', 404);
+                    }
+                    return require kirby()->root('templates') . '/home.json.php';
+                }
+            ],
+
             // ABOUT US
             [
                 'pattern' => 'aboutUs',
@@ -114,6 +131,23 @@ return [
                 }
             ],
 
+            // AUDITIONS
+            [
+                'pattern' => 'auditions',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', default: 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    $page = page('auditions');
+                    if (!$page) {
+                        return new Kirby\Http\Response('Auditions page not found', 'application/json', 404);
+                    }
+                    return require kirby()->root('templates') . '/auditions.json.php';
+                }
+            ],
+
             // NEWS
             [
                 'pattern' => 'news',
@@ -162,6 +196,40 @@ return [
                         return new Kirby\Http\Response('Data Protection page not found', 'application/json', 404);
                     }
                     return require kirby()->root('templates') . '/dataProtection.json.php';
+                }
+            ],
+
+            // IMPRESSUM
+            [
+                'pattern' => 'impressum',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', default: 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    $page = page('impressum');
+                    if (!$page) {
+                        return new Kirby\Http\Response('Impressum page not found', 'application/json', 404);
+                    }
+                    return require kirby()->root('templates') . '/impressum.json.php';
+                }
+            ],
+
+            // AGB
+            [
+                'pattern' => 'agb',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', default: 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    $page = page('agb');
+                    if (!$page) {
+                        return new Kirby\Http\Response('AGB page not found', 'application/json', 404);
+                    }
+                    return require kirby()->root('templates') . '/agb.json.php';
                 }
             ],
         ],

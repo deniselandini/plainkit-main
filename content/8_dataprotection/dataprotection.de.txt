@@ -1,0 +1,12 @@
+Title: dataProtection
+
+----
+
+Main-headline: Datenschutz
+
+----
+
+Privacy-text-blocks:
+
+- 
+  paragraph: GERMAN TEXT

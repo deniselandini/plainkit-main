@@ -30,11 +30,21 @@ tabs:
       intro_text_left:
         label: Intro Text (left side)
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
         width: 1/2
 
       intro_text_right:
         label: Intro Text (right side)
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
         width: 1/2
 
       # --- SECTION 3: AUDITION BANNER ---
@@ -83,6 +93,11 @@ tabs:
           description:
             label: Description
             type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
           image:
             label: Subject Image
             type: files
@@ -96,7 +111,7 @@ tabs:
               text: "{{ item.category_name }}"
               value: "{{ item.category_name }}"
 
-     # --- SECTION 5: PROGRAM STRUCTURE (Nuova Sezione) ---
+     # --- SECTION 5: PROGRAM STRUCTURE ---
       line_4:
         type: line
       section_program_structure:
@@ -111,11 +126,21 @@ tabs:
       program_structure_intro:
         label: Program Intro Paragraph
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
         help: Text about the 3-year duration and requirements.
 
       program_structure_details:
         label: Program Details Paragraph
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
         help: Text about credits (ECTS) and previous studies.
 
       # --- SECTION 6: AUSBUILDUNG (3 years program) ---
@@ -133,7 +158,11 @@ tabs:
       firstYear_description:
         label: First year Description
         type: textarea
-
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
       secondYear_headline:
         label: Second year Headline
         type: text
@@ -143,6 +172,11 @@ tabs:
       secondYear_description:
         label: Second year Description
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
 
       thirdYear_headline:
         label: Third year Headline
@@ -153,6 +187,11 @@ tabs:
       thirdYear_description:
         label: Third year Description
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
 
       # --- SECTION 7: COSTS ---
       line_6:
@@ -167,6 +206,11 @@ tabs:
       costs_text:
         label: Costs Description
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
 
       # --- SECTION 8: FORTBUILDUNG ---
       line_7:
@@ -181,6 +225,11 @@ tabs:
       fortbuildung_text:
         label: Fortbuildung Description
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
 
       fortbuildung_image:
         label: Fortbuildung Image

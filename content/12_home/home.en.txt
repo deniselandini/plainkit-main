@@ -1,0 +1,45 @@
+Intro-headline: Contemporay Dannce School of Hamburg
+
+----
+
+Intro-text-1: We are a **state-accredited**
+
+----
+
+Intro-text-2: vocational school for contemporary stage dance
+
+----
+
+Header-video: - file://k41refli0rsuvsp5
+
+----
+
+Aktuelles-headline: News
+
+----
+
+Team-header: About Us
+
+----
+
+Team-text: The CDSH - Contemporary Dance School is a state-accredited vocational school for contemporary stage dance. The three-year program focuses on contemporary and modern classical ballet.
+
+----
+
+Team-image: - file://hsabsuqjkims0hx0
+
+----
+
+Audition-text: THE AUDITION DATES 2026 ARE NOW ONLINE
+
+----
+
+Audition-link-text: REGISTER NOW
+
+----
+
+Show-footer-cta: true
+
+----
+
+Uuid: 0yyzvkjuf1qahvnz
