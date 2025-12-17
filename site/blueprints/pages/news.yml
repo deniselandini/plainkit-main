@@ -15,6 +15,11 @@ tabs:
       header_intro:
         label: Intro Text
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
       header_image:
         label: Header Image
         type: files
@@ -60,6 +65,11 @@ tabs:
           description:
             label: Short Description
             type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
           image:
             label: Image
             type: files

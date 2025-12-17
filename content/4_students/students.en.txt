@@ -10,7 +10,7 @@ Intro-text: Studying stage dance at CDSH means not only learning, but also findi
 
 ----
 
-Header-image: 
+Header-image: - file://qywqoyzq9pxqzw5r
 
 ----
 

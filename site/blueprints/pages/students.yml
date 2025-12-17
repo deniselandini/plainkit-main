@@ -1,5 +1,5 @@
 title: Classes
-icon: group
+icon: graduation-cap
 
 tabs:
   content:
@@ -17,6 +17,11 @@ tabs:
       intro_text:
         label: Introductory Text
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
       
       header_image:
         label: Header Image
@@ -51,12 +56,22 @@ tabs:
           class_description_left:
             label: Description (left side)
             type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
             size: medium
             buttons: false
             help: Detailed description for the class dedicated page.
           class_description_right:
             label: Description (right side)
             type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
             size: medium
             buttons: false
             help: Detailed description for the class dedicated page.
@@ -66,7 +81,7 @@ tabs:
             required: true
           class_names:
             label: Students name
-            type: textarea
+            type: text
             size: medium
             buttons: false
             help: Name and surname of each student belonginig to the class

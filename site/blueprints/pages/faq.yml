@@ -17,6 +17,11 @@ tabs:
       intro_text:
         label: Bubble Text
         type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
         size: small
 
       # --- SECTION 2: QUESTIONS LIST ---
@@ -43,6 +48,11 @@ tabs:
           answer:
             label: Answer
             type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
             required: true
             size: medium
 

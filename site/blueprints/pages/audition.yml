@@ -1,0 +1,77 @@
+title: Auditions
+icon: project
+
+tabs:
+  content:
+    label: Page Content
+    fields:
+      # --- SECTION 1: HEADER & INTRO ---
+      section_header_label:
+        label: 1. Header & Intro
+        type: headline
+      
+      header_title:
+        label: Main Headline (e.g., Auditions)
+        type: text
+
+      header_intro:
+        label: Introductory Text
+        type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
+
+      header_image:
+        label: Header Image
+        type: files
+        max: 1
+        query: page.images
+
+      # --- SECTION 2: AUDITIONS LIST ---
+      line_1:
+        type: line
+      section_date_auditions_label:
+        label: 1. Auditions List
+        type: headline
+
+      auditions_list:
+        label: Auditions
+        type: structure
+        columns:
+          audition_date: 1/2
+          audition_place: 1/2
+        fields:
+          audition_date:
+            label: Date
+            type: date
+            required: true
+          audition_place:
+            label: Place
+            type: text
+            required: true
+         
+      # --- SECTION 3: SETTINGS & DOWNLOAD ---
+      line_2:
+        type: line
+
+      section_settings_label:
+        label: 2. Settings & Files
+        type: headline
+
+      auditions_active:
+        label: Auditions Active?
+        type: toggle
+        default: true
+        
+      download_link_text:
+        label: Download Link Text (e.g., Download Checklist 2025)
+        type: text
+
+      download_file:
+        label: Download File (PDF or other form)
+        type: files
+        max: 1
+        uploads: assets/files
+        required: false

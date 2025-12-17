@@ -1,0 +1,94 @@
+title: Home
+icon: home
+
+tabs:
+  content:
+    label: Page Content
+    fields:
+      # --- SECTION 1: HEADER & INTRO ---
+      section_header_label:
+        label: 1. Header & Intro
+        type: headline
+      intro_headline:
+        label: Main Headline (e.g., CDSH)
+        type: text
+      intro_text_1:
+        label: Introductory Text
+        type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
+      intro_text_2:
+        label: Introductory Text
+        type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
+      header_video:
+        label: Header Video
+        type: files
+        max: 1
+        query: page.video
+
+      # --- SECTION 2: AKTUELLES ---
+      line_1:
+        type: line
+      section_aktuelles:
+        label: 2. Aktuelles
+        type: headline
+      aktuelles_headline:
+        label: Aktuelles Headline
+        type: text
+
+      # --- SECTION 4: TEAM ---
+      line_2:
+        type: line
+      section_team_label:
+        label: 3. Team
+        type: headline
+
+      team_header:
+        label: Headline (e.g., About Us)
+        type: text
+
+      team_text:
+        label: Team Text
+        type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
+
+      team_image:
+        label: Team Image
+        type: files
+        max: 1
+        query: page.images
+
+      # --- SECTION 4: AUDITION BANNER ---
+      line_3:
+        type: line
+      section_audition_label:
+        label: 4. Audition Banner (Loop)
+        type: headline
+
+      audition_text:
+        label: Banner Text
+        type: text
+        help: e.g. THE AUDITION DATES 2025 ARE NOW ONLINE.
+
+      audition_link_text:
+        label: Link Text
+        type: text
+        help: e.g. REGISTER NOW
+
+      # --- SECTION 5: FOOTER CTA ---
+      line_9:
+        type: line
+      footer_cta:
+        extends: fields/footer_cta

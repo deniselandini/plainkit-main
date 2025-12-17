@@ -1,0 +1,43 @@
+title: AGB
+icon: lock
+
+tabs:
+  content:
+    label: Page Content
+    fields:
+      # --- SECTION 1: HEADER ---
+      section_header_label:
+        label: 1. Header
+        type: headline
+      
+      main_headline:
+        label: Main Headline (e.g., AGB)
+        type: text
+
+      # --- SECTION 2: AGB TEXT BLOCKS ---
+      line_1:
+        type: line
+      
+      section_text_label:
+        label: 2. AGB Text Blocks
+        type: headline
+
+      agb_text_blocks:
+        label: Text Blocks
+        type: structure
+        required: true
+        columns:
+          paragraph: 
+            width: 1/1
+        fields:
+          paragraph:
+            label: Paragraph
+            type: textarea 
+            required: true
+            size: medium
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
+            help: "Enter one paragraph of the AGB text."

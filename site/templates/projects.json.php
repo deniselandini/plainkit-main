@@ -35,6 +35,8 @@ foreach ($projects as $p) {
         'src' => $img ? $img->url() : null,
         // Add other fiels hier (see if it is necessary)
     ];
+
+    
 }
 
 return $allProjects;

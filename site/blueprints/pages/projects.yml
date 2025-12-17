@@ -54,16 +54,26 @@ tabs:
           project_description_left:
             label: Description Left Column
             type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
             size: medium
           project_description_right:
             label: Description Right Column
             type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
             size: medium
           project_impressions:
             label: Impressions Gallery
             type: files
             layout: cards
-            query: page.images
+            multiple: true
 
 
   # --- TAB SETTINGS (Management categories) ---

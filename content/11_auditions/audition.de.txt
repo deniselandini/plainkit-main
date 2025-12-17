@@ -1,0 +1,25 @@
+Title: auditions
+
+----
+
+Header-title: Auditions
+
+----
+
+Header-intro: Du kannst dich bei Interesse an unseren Aufnahmeprüfungen für die Video Audition registrieren. Sie ist gleichwertig mit einer Audition vor Ort und besteht im Wesentlichen aus der Einsendung von Videos, die uns als Bewertungsgrundlage dienen.
+
+----
+
+Header-image: - file://x7viidbvw54comvj
+
+----
+
+Auditions-active: true
+
+----
+
+Download-link-text: Download Checkliste 2025
+
+----
+
+Download-file: - file://m6bkyjetvptutg8k
