@@ -62,7 +62,6 @@ tabs:
               - ul
               - ol
             size: medium
-            buttons: false
             help: Detailed description for the class dedicated page.
           class_description_right:
             label: Description (right side)
@@ -73,7 +72,6 @@ tabs:
               - ul
               - ol
             size: medium
-            buttons: false
             help: Detailed description for the class dedicated page.
           class_student_header:
             label: Title student list

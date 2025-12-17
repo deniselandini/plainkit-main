@@ -175,7 +175,7 @@ tabs:
       line_5:
         type: line
       section_docents_list_label:
-        label: 6. Docents/Teachers List
+        label: 6. Teachers List
         type: headline
       
       docents_members:
@@ -197,17 +197,26 @@ tabs:
             type: text
             required: true
             width: 1/2
-          member_biography:
-            label: Biography / Vita
+          member_biography_left:
+            label: Biography / Vita (left side)
             type: textarea
             buttons: 
-            - bold
-            - italic
-            - ul
-            - ol
-            size: large
-            buttons: false
-            help: Detailed biography for the docent's dedicated page (optional).
+              - bold
+              - italic
+              - ul
+              - ol
+            size: medium
+            help: Detailed biography for the member's dedicated page.
+          member_biography_right:
+            label: Biography / Vita (right side)
+            type: textarea
+            buttons: 
+              - bold
+              - italic
+              - ul
+              - ol
+            size: medium
+            help: Detailed biography for the member's dedicated page.
           member_image:
             label: Profile Picture
             type: files

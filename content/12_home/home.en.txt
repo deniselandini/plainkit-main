@@ -2,11 +2,11 @@ Intro-headline: Contemporay Dannce School of Hamburg
 
 ----
 
-Intro-text-1: We are a **state-accredited**
+Intro-text-1: The *CONTEMPORARY DANCE SCHOOL HAMBURG* (or simply CDSH) is a state-accredited vocational school for contemporary stage dance – and the only school of its kind in Northern Germany. The practical training focuses on contemporary dance, modern dance, ballet, and improvisation. An experienced team of internationally active dancers and teachers will support you on your journey and prepare you for a professional career on the stage, which – soon to be your world too.
 
 ----
 
-Intro-text-2: vocational school for contemporary stage dance
+Intro-text-2: Other text in english
 
 ----
 
@@ -22,7 +22,7 @@ Team-header: About Us
 
 ----
 
-Team-text: The CDSH - Contemporary Dance School is a state-accredited vocational school for contemporary stage dance. The three-year program focuses on contemporary and modern classical ballet.
+Team-text: The **CDSH** - Contemporary Dance School is a state-accredited vocational school for contemporary stage dance. The three-year program focuses on contemporary and modern classical ballet.
 
 ----
 

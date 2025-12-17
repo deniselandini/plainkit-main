@@ -2,11 +2,6 @@
 type: group
 fields:
   section_cta_headline:
-    label: Footer CTA
+    label: Footer
     type: headline
-    help: "If enabled, the global footer defined in Site Settings will be displayed."
-  show_footer_cta:
-    label: Show Footer CTA?
-    type: toggle
-    text: ["Hidden", "Visible"]
-    default: true
+    help: "This page has the footer"

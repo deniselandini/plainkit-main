@@ -6,23 +6,23 @@ Header-title: Über uns
 
 ----
 
-Header-text: Das Ausbildungsprogramm der CDSH verbindet die Vielfalt des zeitgenössischen Tanzes mit den individuellen künstlerischen Bedürfnissen der Studierenden und den Anforderungen der internationalen Branche.
+Header-text: Das **CDSH**-Ausbildungsprogramm verbindet die Vielfalt des *zeitgenössischen* Tanzes mit den individuellen künstlerischen Bedürfnissen der Studierenden und den Anforderungen der internationalen Branche.
 
 ----
 
-Header-image: 
+Header-image: - file://is3x30qu9eadb7wv
 
 ----
 
-Description-left: Die Contemporary Dance School Hamburg bietet dir zeitgenössischen Tanz auf hohem Niveau und die Entwicklung deiner künstlerischen Persönlichkeit im Austausch mit erfahrenen Mentor*innen aus aller Welt. Das tägliche Training bereitet dich auf die Anforderungen deiner Karriere im Bühnentanz vor. Als staatlich anerkannte Berufsfachschule für zeitgenössischen Bühnentanz bietet dir die CDSH eine dreijährige praxisnahe Tanzausbildung, bringt dich in Kontakt mit Künstler*innen aus der Szene und
+Description-left: Die **Contemporary Dance School Hamburg** bietet Ihnen zeitgenössischen Tanz auf hohem Niveau und die Möglichkeit, Ihre künstlerische Persönlichkeit durch den Austausch mit erfahrenen Mentor*innen aus aller Welt zu entwickeln. Das tägliche Training bereitet Sie optimal auf die Anforderungen einer Bühnentanzkarriere vor. Als staatlich anerkannte Berufsfachschule für zeitgenössischen Bühnentanz bietet Ihnen die CDSH eine dreijährige, praxisorientierte Tanzausbildung, vernetzt Sie mit Künstler*innen der Szene und
 
 ----
 
-Description-right: kooperiert mit vielen relevanten Bereichen der tänzerischen Bildung. Ein wirksames Unterrichtsprogramm hilft dir, dich technisch, künstlerisch und kreativ weiterzuentwickeln. Durch choreografische Projektarbeit bekommst du ein Gefühl für die professionelle Arbeit und sammelst Bühnenerfahrung durch regelmäßige Auftritte im Theater. Ein erfahrenes Team aus Künstler*innen und Pädagog*innen unterstützt dich bei deiner Entwicklung in der tänzerischen Ausbildung.
+Description-right: die Schule arbeitet mit vielen relevanten Bereichen der Tanzausbildung zusammen. Ein effektiver Lehrplan unterstützt Ihre technische, künstlerische und kreative Entwicklung. Durch choreografische Projektarbeit gewinnen Sie Einblicke in die professionelle Praxis und sammeln Bühnenerfahrung durch regelmäßige Theaterauftritte. Ein erfahrenes Team aus Künstlern und Pädagogen begleitet Sie während Ihrer Tanzausbildung.
 
 ----
 
-Banner-text-1: WORKSHOPS, EDUCATION, TRAINING
+Banner-text-1: WORKSHOPS, WEITERBILDUNG, TRAINING
 
 ----
 
@@ -30,35 +30,25 @@ Split-sections:
 
 - 
   title: 'Talent, Technik & Tanzsprache'
-  text: >
-    Wir fördern die Findung der
-    individuellen künsterischen
-    Persönlichkeit. Die Basis dessen bildet
-    eine fundierte Ausbildung im Bereich
-    etablierter Tanzstile.
+  text: 'Wir fördern die Entwicklung einer **individuellen künstlerischen Persönlichkeit**. Diese basiert auf einer soliden Grundlage in etablierten Tanzstilen.'
   image:
     - file://is3x30qu9eadb7wv
   reverse: 'false'
   bottom_border: 'false'
 - 
   title: 'Förderung & Kooperation'
-  text: 'Wir vermitteln auch nach dem Abschluss Jobs und stellen Proberäume kostenfrei bereit. Außerdem profitiert ihr während der Ausbildung von unserem Netzwerk internationaler Mentor*innen.'
+  text: 'Wir unterstützen Sie außerdem bei der **Jobsuche** nach Ihrem Abschluss und stellen Ihnen kostenlose Proberäume zur Verfügung. Darüber hinaus profitieren Sie während Ihrer Ausbildung von unserem Netzwerk internationaler Mentoren.'
   image:
     - file://bik3jh6d1s6aq4uf
-  reverse: 'false'
+  reverse: 'true'
   bottom_border: 'false'
 - 
   title: 'Choreografie & Praxis'
-  text: >
-    Wir erarbeiten zielgerichtete
-    Choreografien und sammeln bereits
-    während der Ausbildung viele
-    Erfahrungen auf lokalen Bühnen und
-    Events.
+  text: 'Wir entwickeln zielgerichtete **Choreografien** und sammeln während unserer Ausbildung umfangreiche **Erfahrung** auf lokalen Bühnen und bei Veranstaltungen.'
   image:
     - file://9cxie6b7sh5cukyd
-  reverse: 'true'
-  bottom_border: 'false'
+  reverse: 'false'
+  bottom_border: 'true'
 
 ----
 
@@ -85,7 +75,7 @@ Cooperations-list:
 
 ----
 
-Banner-text-2: OPENNESS, RESPECT, TOLERANCE, CREATIVITY
+Banner-text-2: OFFENHEIT, RESPEKT, TOLERANZ, KREATIVITÄT
 
 ----
 
@@ -93,11 +83,11 @@ Concept-title: Künstlerisches Konzept
 
 ----
 
-Concept-text-left: »In meiner Tätigkeit als Künstlerischer Leiter der Contemporary Dance School Hamburg verbinde ich das kreative und technische Potenzial der CDSH mit den Ansprüchen einer praxisorientierten Ausbildung für den  zeitgenössischen Bühnentanz. Mein Ziel ist es, durch den Austausch der CDSH mit unterschiedlichen Künstler*innen und Kooperationspartner*innen den zukünftigen Tänzern schon während der Ausbildung eine bestmögliche Einbindung in verschiedene Produktionen und Projekte zu ermöglichen.
+Concept-text-left: „In meiner Rolle als **Künstlerische Leiterin** der *Contemporary Dance School Hamburg* (CDSH) verbinde ich das kreative und technische Potenzial der CDSH mit den Anforderungen einer praxisorientierten Ausbildung im zeitgenössischen Bühnentanz. Mein Ziel ist es, zukünftige Tänzerinnen und Tänzer während ihrer Ausbildung bestmöglich in verschiedene Produktionen und Projekte zu integrieren, indem ich den Austausch zwischen der CDSH und diversen Künstlerinnen und Künstlern sowie Partnern fördere.“
 
 ----
 
-Concept-text-right: Damit fördern wir ein Netzwerk, das auch über die Ausbildung hinaus einen kreativen Austausch ermöglicht und den beruflichen Einstieg erleichtert. Meiner Erfahrung nach ist die Entwicklung des kreativen Potenzials in viele Richtungen einer der wichtigsten Bestandteile in der künstlerischen Ausbildung. Das Spektrum der CDSH umfasst sowohl die technische Schulung als auch die individuelle Förderung der künstlerischen Persönlichkeit der Tänzer.«
+Concept-text-right: Auf diese Weise pflegen wir ein Netzwerk, das den kreativen Austausch über das Ausbildungsprogramm hinaus fördert und den Übergang ins Berufsleben erleichtert. Meiner Erfahrung nach ist die Entwicklung kreativen Potenzials in vielfältiger Weise einer der wichtigsten Bestandteile einer künstlerischen Ausbildung. Das Angebot des CDSH umfasst sowohl technische Unterweisung als auch die individuelle Förderung der künstlerischen Persönlichkeit jedes Tänzers.
 
 ----
 
@@ -122,6 +112,10 @@ Rooms-gallery:
 - file://0l8szppjrt3l60fe
 - file://fbnfwailk5rivnla
 - file://9fr3oxyrymxjzkgi
+
+----
+
+Show-footer-cta: true
 
 ----
 

@@ -68,7 +68,9 @@ $ausbildungYears = [
 $fortImg = $page->fortbuildung_image()->toFile();
 $fortbildung = [
     'headline' => $page->fortbuildung_headline()->value(),
-    'description' => $page->fortbuildung_text()->value(),
+    'overview' => $page->fortbuildung_overview()->value(),
+    'schedule' => $page->fortbuildung_schedule()->value(),
+    'requirement' => $page->fortbuildung_requirement()->value(),
     'image' => $fortImg ? $fortImg->url() : null,
 ];
 
@@ -92,11 +94,11 @@ return [
     'subjects' => $subjectsArray,
 
     'program_structure' => [
-        'title'   => $page->program_structure_title()->value(),
-        'intro'   => $page->program_structure_intro()->value(),
+        'title' => $page->program_structure_title()->value(),
+        'intro' => $page->program_structure_intro()->value(),
         'details' => $page->program_structure_details()->value(),
     ],
-    
+
     'ausbildung_years' => $ausbildungYears,
 
     'costs' => [

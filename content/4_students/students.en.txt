@@ -6,7 +6,7 @@ Intro-headline: The students
 
 ----
 
-Intro-text: Studying stage dance at CDSH means not only learning, but also finding like-minded people and friends. You work intensively with people in your field every day. This fosters a diverse exchange and encourages personal development among dancers, choreographers, and performers.
+Intro-text: Studying stage dance at **CDSH** means not only learning, but also finding like-minded people and friends. You work intensively with people in your field every day. This fosters a diverse exchange and encourages personal development among dancers, choreographers, and performers.
 
 ----
 
@@ -19,14 +19,7 @@ Student-groups:
 - 
   class_id: yuugen
   class_name: Yugen
-  class_description_left: >
-    “Yūgen” is an aesthetic concept in
-    traditional Japanese art that describes
-    the deep, mystical beauty of the
-    unfathomable and the unseen. The term is
-    often used in poetry, Nō theater (a
-    traditional form of Japanese theater),
-    and painting,
+  class_description_left: '“**Yūgen**” is an aesthetic concept in traditional Japanese art that describes the deep, mystical beauty of the unfathomable and the unseen. The term is often used in poetry, Nō theater (a traditional form of Japanese theater), and painting,'
   class_description_right: >
     emphasizing the feeling of connection to
     something greater that is only hinted at
@@ -57,13 +50,7 @@ Student-groups:
 - 
   class_id: ikigai
   class_name: Ikigai
-  class_description_left: >
-    “Ikigai” is a Japanese concept that
-    means your reason for being or your
-    purpose in life. It is unique to every
-    person, it allows you to express
-    yourself freely and truthfully,
-    according to your own rules or values.
+  class_description_left: '“**Ikigai**” is a Japanese concept that means your reason for being or your purpose in life. It is unique to every person, it allows you to express yourself freely and truthfully, according to your own rules or values.'
   class_description_right: >
     As a group we are connected through the
     search for our own ikigai, exploring our
@@ -94,14 +81,7 @@ Student-groups:
 - 
   class_id: ho’omau
   class_name: Ho’omau
-  class_description_left: >
-    Ho’omau signifies resilience and
-    perseverance. As a class, we value and
-    trust the process of growth, in the many
-    different forms it may come in. By
-    understanding that our journeys as
-    artists won’t always be linear or
-    necessarily
+  class_description_left: '**Ho’omau** signifies resilience and perseverance. As a class, we value and trust the process of growth, in the many different forms it may come in. By understanding that our journeys as artists won’t always be linear or necessarily'
   class_description_right: >
     smooth sailing, we are able to steady
     each other and carry on together. We are

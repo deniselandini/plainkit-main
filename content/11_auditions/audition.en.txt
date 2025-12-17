@@ -6,7 +6,7 @@ Header-title: Auditions
 
 ----
 
-Header-intro: If you are interested in our entrance exams, you can register for the video audition. It is equivalent to an on-site audition and essentially consists of submitting videos, which we use as the basis for our evaluation.
+Header-intro: If you are interested in our entrance exams, you can register for the **video audition**. It is equivalent to an **on-site audition** and essentially consists of submitting videos, which we use as the basis for our evaluation.
 
 ----
 

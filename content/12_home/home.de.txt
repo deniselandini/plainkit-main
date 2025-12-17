@@ -1,0 +1,41 @@
+Intro-headline: Contemporay Dannce School of Hamburg
+
+----
+
+Intro-text-1: Die *CONTEMPORARY DANCE SCHOOL HAMBURG* (kurz CDSH) ist eine staatlich anerkannte Berufsfachschule für zeitgenössischen Bühnentanz – und die einzige ihrer Art in Norddeutschland. Die praktische Ausbildung konzentriert sich auf zeitgenössischen Tanz, Modern Dance, Ballett und Improvisation. Ein erfahrenes Team international tätiger Tänzer und Lehrer begleitet Sie auf Ihrem Weg und bereitet Sie auf eine professionelle Bühnenkarriere vor, die schon bald auch Ihre Welt sein wird.
+
+----
+
+Intro-text-2: Hier können Sie weiteren deutsch Text einfügen. Vielleicht eine kurze Beschreibung.
+
+----
+
+Header-video: - file://k41refli0rsuvsp5
+
+----
+
+Aktuelles-headline: Aktuelles
+
+----
+
+Team-header: ÜBER UNS
+
+----
+
+Team-text: Die **CDSH** – Contemporary Dance School ist eine staatlich anerkannte Berufsschule für zeitgenössischen Bühnentanz. Das dreijährige Programm konzentriert sich auf zeitgenössisches und modernes klassisches Ballett.
+
+----
+
+Team-image: - file://hsabsuqjkims0hx0
+
+----
+
+Audition-text: THE AUDITION DATES 2026 SIND JETZT ONLINE:
+
+----
+
+Audition-link-text: JETZT AMNELDEN
+
+----
+
+Show-footer-cta: true

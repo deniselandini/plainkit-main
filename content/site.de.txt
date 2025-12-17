@@ -7,3 +7,15 @@ Global-cta-title: Du möchtest uns kennenlernen?
 ----
 
 Global-cta-text: Wir dich ebenfalls. Neben den regulären Auditions sind wir bei Fragen rund um die Ausbildung per Mail oder telefonisch für dich da.
+
+----
+
+Global-audition-banner-active: true
+
+----
+
+Global-audition-banner-title: Audition 2025 sind jetzt online!
+
+----
+
+Global-audition-banner-link: Jetzt anmelden

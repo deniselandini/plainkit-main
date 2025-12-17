@@ -26,6 +26,14 @@ Audition-link-text: JETZT ANMELDEN
 
 ----
 
+Subjects-balls-title: 
+
+----
+
+Subjects-balls-description: 
+
+----
+
 Subjects-list:
 
 - 
@@ -35,6 +43,18 @@ Subjects-list:
   description: ""
   image: [ ]
   categories: ""
+
+----
+
+Program-structure-title: Structure & Organization
+
+----
+
+Program-structure-intro: Dieses dreijährige Programm richtet sich an Bewerber mit soliden Vorkenntnissen in zeitgenössischem Tanz und Ballett. Die Zulassung erfolgt über ein Vorsprechen.
+
+----
+
+Program-structure-details: Studienleistungen aus anderen Studiengängen können angerechnet werden. Lorem Ipsum ... übersetzt Studium in ECTS.
 
 ----
 
@@ -86,13 +106,15 @@ Fortbuildung-headline: Fortbildung
 
 ----
 
-Fortbuildung-text:
+Fortbuildung-overview: Fortbildung in Residence (**FIR**) ist das exklusive Weiterbildungsprogramm der Contemporary Dance School Hamburg – für ausgebildete Bühnentänzer*innen ohne aktuelles Engagement, die im Training bleiben oder sich weiterentwickeln möchten.
 
-Fortbildung in Residence (FIR) ist das exklusive Weiterbildungsprogramm der Contemporary Dance School Hamburg – für ausgebildete Bühnentänzer*innen ohne aktuelles Engagement, die im Training bleiben oder sich weiterentwickeln möchten.
+----
 
-Zur Auswahl stehen zwei sechmonatige Blöcke: 1. Januar – 1. Juli oder 1. September – 1. März. Bis zu 12 Einheiten pro Woche können individuell aus dem Lehrplan gewählt werden. Zudem stehen die Studios für eigene Projekte zur Verfügung, die bei »Work in Progress« oder dem Abschlussprojekt öffentlich gezeigt werden können. Optional: bis zu 6 Mentoring-Sessions sowie Mitwirkung an bis zu zwei Kreationen der Hauschoreograf*innen.
+Fortbuildung-schedule: Zur Auswahl stehen zwei sechmonatige Blöcke: **1. Januar – 1. Juli** oder **1. September – 1. März**. Bis zu 12 Einheiten pro Woche können individuell aus dem Lehrplan gewählt werden. Zudem stehen die Studios für eigene Projekte zur Verfügung, die bei »Work in Progress« oder dem Abschlussprojekt öffentlich gezeigt werden können. Optional: bis zu 6 Mentoring-Sessions sowie Mitwirkung an bis zu zwei Kreationen der Hauschoreograf*innen.
 
-Voraussetzung: abgeschlossene Tanzausbildung oder gleichwertige Erfahrung. Die Aufnahme erfolgt über Audition (live, per Video oder während des Programms). Kosten: 300 €/Monat
+----
+
+Fortbuildung-requirement: Voraussetzung: abgeschlossene Tanzausbildung oder gleichwertige Erfahrung. Die Aufnahme erfolgt über Audition (*live, per Video oder während des Programms*). Kosten: **300 €/Monat**
 
 ----
 
@@ -101,10 +123,6 @@ Fortbuildung-image: - file://fljgkcescxigk6tn
 ----
 
 Aktuelles-headline: Aktuelles
-
-----
-
-Show-footer-cta: true
 
 ----
 
@@ -122,3 +140,17 @@ Categories-manager:
 - 
   category_id: workshops
   category_name: Workshops
+
+----
+
+Fortbuildung-text:
+
+Fortbildung in Residence (FIR) ist das exklusive Weiterbildungsprogramm der Contemporary Dance School Hamburg – für ausgebildete Bühnentänzer*innen ohne aktuelles Engagement, die im Training bleiben oder sich weiterentwickeln möchten.
+
+Zur Auswahl stehen zwei sechmonatige Blöcke: 1. Januar – 1. Juli oder 1. September – 1. März. Bis zu 12 Einheiten pro Woche können individuell aus dem Lehrplan gewählt werden. Zudem stehen die Studios für eigene Projekte zur Verfügung, die bei »Work in Progress« oder dem Abschlussprojekt öffentlich gezeigt werden können. Optional: bis zu 6 Mentoring-Sessions sowie Mitwirkung an bis zu zwei Kreationen der Hauschoreograf*innen.
+
+Voraussetzung: abgeschlossene Tanzausbildung oder gleichwertige Erfahrung. Die Aufnahme erfolgt über Audition (live, per Video oder während des Programms). Kosten: 300 €/Monat
+
+----
+
+Show-footer-cta: true

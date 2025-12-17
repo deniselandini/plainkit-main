@@ -10,11 +10,11 @@ Header-image: - file://tfx1tvcmhiz2gyy7
 
 ----
 
-Intro-text-left: We enable dancers to engage sustainably with diverse contemporary and classical dance techniques and styles, as well as receive training in numerous forms of movement and expression to prepare them for a career. In addition to regular training, we regularly invite international guests who share their knowledge with our trainees.
+Intro-text-left: We enable dancers to engage sustainably with diverse **contemporary** and **classical** dance techniques and styles, as well as receive training in numerous forms of movement and expression to prepare them for a career. In addition to regular training, we regularly invite international guests who share their knowledge with our trainees.
 
 ----
 
-Intro-text-right: Fostering the individual wishes of both individuals and groups is part of the CDSH's mission. We respond to the needs of our students and to current demands in the professional environment – ​​our program is constantly evolving.
+Intro-text-right: Fostering the individual wishes of both individuals and groups is part of the CDSH's mission. We respond to the needs of our students and to current demands in the *professional environment* – ​​our program is constantly evolving.
 
 ----
 
@@ -23,6 +23,14 @@ Audition-text: THE AUDITION DATES FOR 2025 ARE NOW ONLINE
 ----
 
 Audition-link-text: REGISTER NOW
+
+----
+
+Subjects-balls-title: 
+
+----
+
+Subjects-balls-description: 
 
 ----
 
@@ -274,13 +282,15 @@ Fortbuildung-headline: Further training
 
 ----
 
-Fortbuildung-text:
+Fortbuildung-overview: Continuing Education in Residence (**FIR**) is the exclusive professional development program of the Contemporary Dance School Hamburg – for trained stage dancers without current engagements who wish to maintain their training or further develop their skills.
 
-Continuing Education in Residence (FIR) is the exclusive professional development program of the Contemporary Dance School Hamburg – for trained stage dancers without current engagements who wish to maintain their training or further develop their skills.
+----
 
-Two six-month blocks are available: January 1 – July 1 or September 1 – March 1. Participants can individually select up to 12 classes per week from the curriculum. The studios are also available for individual projects, which can be presented publicly as part of the "Work in Progress" series or the final project. Optional extras include up to six mentoring sessions and the opportunity to collaborate on up to two creations by the resident choreographers.
+Fortbuildung-schedule: Two six-month blocks are available: **January 1 – July 1 or September 1 – March 1**. Participants can individually select up to 12 classes per week from the curriculum. The studios are also available for individual projects, which can be presented publicly as part of the "Work in Progress" series or the final project. Optional extras include up to six mentoring sessions and the opportunity to collaborate on up to two creations by the resident choreographers.
 
-Requirements: completed dance training or equivalent experience. Admission is via audition (live, via video, or during the program). Cost: €300/month
+----
+
+Fortbuildung-requirement: Requirements: completed dance training or equivalent experience. Admission is via audition (*live, via video, or during the program*). Cost: **€300/month**
 
 ----
 
@@ -288,11 +298,7 @@ Fortbuildung-image: - file://fljgkcescxigk6tn
 
 ----
 
-Aktuelles-headline: Aktuelles
-
-----
-
-Show-footer-cta: true
+Aktuelles-headline: New
 
 ----
 
@@ -310,6 +316,20 @@ Categories-manager:
 - 
   category_id: workshops
   category_name: Workshops
+
+----
+
+Fortbuildung-text:
+
+Continuing Education in Residence (FIR) is the exclusive professional development program of the Contemporary Dance School Hamburg – for trained stage dancers without current engagements who wish to maintain their training or further develop their skills.
+
+Two six-month blocks are available: January 1 – July 1 or September 1 – March 1. Participants can individually select up to 12 classes per week from the curriculum. The studios are also available for individual projects, which can be presented publicly as part of the "Work in Progress" series or the final project. Optional extras include up to six mentoring sessions and the opportunity to collaborate on up to two creations by the resident choreographers.
+
+Requirements: completed dance training or equivalent experience. Admission is via audition (live, via video, or during the program). Cost: €300/month
+
+----
+
+Show-footer-cta: true
 
 ----
 

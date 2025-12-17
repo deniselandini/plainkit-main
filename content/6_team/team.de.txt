@@ -2,77 +2,158 @@ Title: team
 
 ----
 
-Intro-headline: 
+Intro-headline: Team
 
 ----
 
-Intro-text: 
+Intro-text: Als **Leitungsteam** der *CDSH* können ***Javier Báez, Raul Valdez und Sina Rundel*** auf ihre langjährige künstlerische und pädagogische Erfahrung zurückgreifen, um in ihrem Ausbildungsprogramm eine qualitativ hochwertige, den realen Anforderungen gerecht werdende Vorbereitung auf den Beruf zeitgenössische*r Bühnentänzer*in zu garantieren.
 
 ----
 
-Header-image: 
+Header-image: - file://iqiemrej5yvz5qm4
 
 ----
 
-Leadership-headline: 
+Leadership-headline: Das Leitungsteam
 
 ----
 
-Leadership-text: 
+Leadership-text: Als **Leitungsteam** der *CDSH* können ***Javier Báez, Raul Valdez und Sina Rundel*** auf ihre langjährige künstlerische und pädagogische Erfahrung zurückgreifen, um in ihrem Ausbildungsprogramm eine qualitativ hochwertige, den realen Anforderungen gerecht werdende Vorbereitung auf den Beruf zeitgenössische*r Bühnentänzer*in zu garantieren.
 
 ----
 
 Team-members:
 
 - 
-  member_id: ""
-  member_name: ""
-  member_biography: ""
-  member_image: [ ]
-  member_role: ""
+  member_id: javier_baez
+  member_name: JAVIER BÁEZ
+  member_biography_left: |
+    **JAVIER BÁEZ**, gebürtiger Mexikaner, begann seine Ballett- und Modernausbildung in San Luis Potosì an der Escuela Estatal de Danza und graduierte an der Schule des Ballet Independiente in Mexiko Stadt. Er war auf zahllosen Tourneen und Gastspielen im In- und Ausland.
+    
+    Als Tänzer arbeitete Javier unter anderem beim Ballett Independiente, am Staatstheater Lübeck, im Metropol Theater Berlin und bei der Tanzcompany Lübeck, sowie bei TanzOrtNord und in Gastauftritten in der Hamburgischen Staatsoper.
+  member_biography_right: >
+    Ab 1996 lehrte Javier in Lübeck an der
+    Irene-Olk-Schule, an anderen privaten
+    Institutionen für zeitgenössischen
+    Bühnentanz, sowie bei verschiedenen
+    Tanzkompanien mit den Schwerpunkten
+    Graham-Technik und Ballett. Seit 2005
+    leitet er die CDSH, wo er unter anderem
+    auch als Choreograph tätig ist.
+  member_image:
+    - file://yixdinf3sk9xbkey
+  member_roles: Schulleitung
   member_subjects: ""
-  member_roles: ""
+  member_biography: ""
+  member_role: ""
+- 
+  member_id: raul_valdez
+  member_name: Raul Valdez
+  member_biography_left: |
+    **RAUL VALDEZ **wurde in Santo Domingo geboren und erhielt eine klassische und zeitgenössische Tanzausbildung in der Dominikanischen Republik, New York (Dance Theatre Harlem) und Kuba (Escuela Nacional de Danza).
+    
+    Als Tänzer arbeitete er in Europa und Lateinamerika unter Oscar Araiz, Antonio Gomes und Anna Maria Stekelmann sowie mit dem Tanzensemble „Danzahoy“ mit Jeremy Nelson, David Zambrano, Clover Roope und Risa Steinberg. Raul war als Tänzer auf zahlreiche Tourneen weltweit.
+  member_biography_right: |
+    Als Choreograph und Tänzer wurde er unter anderem am Staatstheater Braunschweig und Karlsruhe sowie für Gastauftritte am Staatstheater Bern engagiert. Im Jahr 1999 erhielt er durch das Hamburg Ballett John Neumeier den Choreographie-Preis »Prix Dom Perignon«.
+    
+    Raul ist seit vielen Jahren weltweit als Dozent für zeitgenössischen Bühnentanz und Choreographie in ausbildenden Institutionen tätig.
+  member_image:
+    - file://0xkufpsuuxzulq18
+  member_roles: 'Künstlerische Leitung, Lehrer*in'
+  member_subjects: ""
+- 
+  member_id: sina_rundel
+  member_name: Sina Rundel
+  member_biography_left: |
+    **SINA RUNDEL** hat 2011 ihren Bachelor of Arts in Kunst, Musik und Medien: Organisation und Vermittlung an der Philipps Universität Marburg abgeschlossen. Nachdem sie ihr Masterstudium in Kunstgeschichte an der Universität Hamburg angetreten hatte, begann sie 2012 eine Ausbildung zur zeitgenössischen Bühnentänzerin an der CDSH Contemporary Dance School Hamburg, die sie 2015 abschloss. Den Master in Kunstgeschichte hat sie 2018 erhalten.
+    
+    Sina hat als Tänzerin in Projekten der Hamburger Choreografin Orthia Feuße Strakenbrock mitgewirkt und ist festes Ensemblemitglied der Sticky Trace Company. Als Produktionsassistentin hat sie 2016 zwei Produktionen derselben betreut. Mit ihrer Solochoreografie Gespräch mit meiner Oberfläche hat Sina an Choreografiewettbewerben teilgenommen, sie hat Workshops zu körperlich-sprachlichen Übersetzungsprozessen für Jugendliche gegeben und arbeitet als Gasthoreografin und -lehrende für Tanz und Bewegung im Bereich inklusives Theater.
+  member_biography_right: |
+    Sie hat als künstlerische Assistentin von Ursina Tossi deren Produktionen REVENANTS und fux mit betreut und arbeitet seit 2022 als freie Produzentin für Hamburg basierte Choreograf*innen. Als solche hat sie Raymond Liew Jin Pins Produktion Maria Cencaru – A Southeast Asian Cis-Sis Reunion betreut. Neben ihrer tanzbezogenen Arbeit war Sina außerdem im Bereich Veranstaltungsmanagement im Kunst- und Museumskontext tätig.
+    
+    Seit November 2016 ist sie Direktionsassistentin und Lehrende, von März 2020 bis Dezember 2021 Operative Leitung der CDSH. Seit Januar 2022 ist sie Managerin für Kommunikation und Schüler*innenbetreuung an der CDSH.
+  member_image:
+    - file://dnbml4oo8tlzcj4u
+  member_roles: Kommunikation und Studierendenbetreuung
+  member_subjects: ""
+- 
+  member_id: martin_stöckle
+  member_name: Martin Stöckle
+  member_biography_left: ""
+  member_biography_right: ""
+  member_image:
+    - file://l3kbcw9cwfaff5tx
+  member_roles: Unternehmensberater
+  member_subjects: ""
 
 ----
 
-Memoriam-headline: 
+Memoriam-headline: In memoriam Tanja Báez
 
 ----
 
-Memoriam-text-left: 
+Memoriam-text-left: Mit großer Trauer und Bestürzung mussten wir im Oktober 2016 bekannt geben, dass Tanja Baéz von uns gegangen ist. Tanja war als Mitgründerin der Contemporary Dance School Hamburg von Beginn an eine der tragenden Säulen der Schule, und ihr Verlust wird nur schwer zu ersetzen sein. Sie hat ihre letzte Reise mit Kraft, Mut und nie klagend angetreten und wird uns für immer Vorbild sein.
 
 ----
 
-Memoriam-text-right: 
+Memoriam-text-right: Ruhe in Frieden, Tanja!
 
 ----
 
-Memoriam-image: 
+Memoriam-image: - file://ddr5bpscfrlwokbq
 
 ----
 
-Teachers-headline: 
+Teachers-headline: Lehrer
 
 ----
 
-Teachers-text: 
+Teachers-text: Unser internationales Dozententeam bietet Ihnen ein breites Spektrum an Einblicken in vielfältige Arbeitsmethoden aus unterschiedlichsten Teilen der Welt. Von Lateinamerika über Osteuropa, die USA und Asien bis hin zu ganz Europa bringen unsere Dozenten umfangreiche Erfahrungen mit – sowohl fachlich als auch praktisch. Dank ihres künstlerischen Hintergrunds vermitteln sie Ihnen neben ihrer fachlichen und technischen Expertise ein sehr konkretes, praxisnahes und erfahrungsbasiertes Bild realer Arbeitspraktiken.
 
 ----
 
 Docents-members:
 
 - 
-  member_id: ""
-  member_name: ""
-  member_biography: ""
-  member_image: [ ]
-  member_role: ""
+  member_id: hellena _stemm
+  member_name: Hellena Stemm
+  member_biography_left: '**HELLENA STEMM** absolvierte ihre Ausbildung zur Tänzerin und Tanzpädagogin mit den Schwerpunkten Klassisches Ballett, Moderner Tanz und Tanzpädagogik in Hamburg, München, San Francisco und New York. In zahlreichen Engagements als Solistin und Gast-Solistin sowie als Ensemble-Mitglied tanzte sie klassisches wie auch modernes Repertoire auf verschiedenen Bühnen von Stadt-und Staatstheatern. Daneben hat sie mit freien Gruppen gearbeitet, war als Tänzerin in Kino-und Experimentalfilmen sowie in Video-Clips zu sehen und nahm an choreographischen Wettbewerben teil.'
+  member_biography_right: 'Hellena ist seit 1992 vorwiegend an Ausbildungsschulen als Dozentin und Gast-Dozentin für Klassisches Ballett tätig und gibt zudem offene Tanzklassen für professionelle und semiprofessionelle Tänzer und Tanz-Studenten zur Fort- und Weiterbildung.'
+  member_image:
+    - file://etomrx6fwqzj9zyb
+  member_role: 'Lehrer*in'
   member_subjects: ""
+  member_biography: |
+    HELLENA STEMM absolvierte ihre Ausbildung zur Tänzerin und Tanzpädagogin mit den Schwerpunkten Klassisches Ballett, Moderner Tanz und Tanzpädagogik in Hamburg, München, San Francisco und New York. In zahlreichen Engagements als Solistin und Gast-Solistin sowie als Ensemble-Mitglied tanzte sie klassisches wie auch modernes Repertoire auf verschiedenen Bühnen von Stadt-und Staatstheatern. Daneben hat sie mit freien Gruppen gearbeitet, war als Tänzerin in Kino-und Experimentalfilmen sowie in Video-Clips zu sehen und nahm an choreographischen Wettbewerben teil.
+    
+    Hellena ist seit 1992 vorwiegend an Ausbildungsschulen als Dozentin und Gast-Dozentin für Klassisches Ballett tätig und gibt zudem offene Tanzklassen für professionelle und semiprofessionelle Tänzer und Tanz-Studenten zur Fort- und Weiterbildung
+
+----
+
+Roles-manager:
+
+- 
+  role_id: schulleitung
+  role_name: Schulleitung
+- 
+  role_id: künstlerische_leitung
+  role_name: Künstlerische Leitung
+- 
+  role_id: kommunikation_und_studierendenbetreuung
+  role_name: Kommunikation und Studierendenbetreuung
+- 
+  role_id: unternehmensberater
+  role_name: Unternehmensberater
+- 
+  role_id: lehrer
+  role_name: 'Lehrer*in'
+- 
+  role_id: choreograf
+  role_name: Choreograf
+- 
+  role_id: gastchoreograf
+  role_name: Gastchoreograf
 
 ----
 
 Show-footer-cta: true
-
-----
-
-Roles-manager: 

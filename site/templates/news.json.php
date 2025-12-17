@@ -21,7 +21,6 @@ return [
     'banner' => [
         'text' => $page->banner_text()->value(),
         'linkText' => $page->banner_link_text()->value(),
-        'linkUrl' => $page->banner_link_url()->value()
     ],
     'newsItems' => $newsItems,
     'footerCta' => [

@@ -37,9 +37,6 @@ tabs:
       banner_link_text:
         label: Link Text
         type: text
-      banner_link_url:
-        label: Link URL (e.g., /auditions)
-        type: text
 
       # --- SECTION 3: NEWS ITEMS (CAROUSEL) ---
       line_2:
@@ -65,11 +62,7 @@ tabs:
           description:
             label: Short Description
             type: textarea
-            buttons: 
-              - bold
-              - italic
-              - ul
-              - ol
+            buttons: false
           image:
             label: Image
             type: files

@@ -6,11 +6,22 @@ Header-title: Auditions
 
 ----
 
-Header-intro: Du kannst dich bei Interesse an unseren Aufnahmeprüfungen für die Video Audition registrieren. Sie ist gleichwertig mit einer Audition vor Ort und besteht im Wesentlichen aus der Einsendung von Videos, die uns als Bewertungsgrundlage dienen.
+Header-intro: Wenn Sie an unseren Aufnahmeprüfungen interessiert sind, können Sie sich für das **Video-Vorsprechen** anmelden. Dieses entspricht einem **Vorsprechen vor Ort** und besteht im Wesentlichen aus der Einreichung von Videos, die wir als Grundlage für unsere Bewertung verwenden.
 
 ----
 
 Header-image: - file://x7viidbvw54comvj
+
+----
+
+Auditions-list:
+
+- 
+  audition_date: 2026-01-01
+  audition_place: Rotterdam
+- 
+  audition_date: 2025-01-16
+  audition_place: Hamburg
 
 ----
 

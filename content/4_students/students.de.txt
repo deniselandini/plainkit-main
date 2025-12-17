@@ -1,0 +1,106 @@
+Title: students
+
+----
+
+Intro-headline: Die Studierende
+
+----
+
+Intro-text: Ein Tanzstudium an der **CDSH** bedeutet nicht nur Lernen, sondern auch das Knüpfen von Kontakten zu Gleichgesinnten und das Finden von Freunden. Man arbeitet täglich intensiv mit Fachleuten zusammen. Dies fördert einen vielfältigen Austausch und unterstützt die persönliche Entwicklung von Tänzern, Choreografen und Performern.
+
+----
+
+Header-image: - file://qywqoyzq9pxqzw5r
+
+----
+
+Student-groups:
+
+- 
+  class_id: yuugen
+  class_name: Yugen
+  class_description_left: '„**Yūgen**“ ist ein ästhetisches Konzept der traditionellen japanischen Kunst, das die tiefe, mystische Schönheit des Unergründlichen und Unsichtbaren beschreibt. Der Begriff findet häufig Verwendung in der Poesie, im Nō-Theater (einer traditionellen japanischen Theaterform) und in der Malerei.'
+  class_description_right: >
+    Er betont das Gefühl der Verbundenheit
+    mit etwas Größerem, das nur
+    angedeutet, aber nie vollständig
+    erfasst wird. In der Kunst wird Yūgen
+    als der Moment verstanden, in dem sich
+    eine innere Wahrheit durch Andeutung
+    oder Stille offenbart.
+  class_student_header: Die Studierende
+  class_names: >
+    Ana Sofía González Esparza, Angel
+    Jahir Negrete Valadez, Antonis
+    Lititaris, Chloe Brooks, Emilio Negrete,
+    Emilio Ángeles Calderón, Fabienne
+    Angelique Menzel, Giorgia Albertazzi,
+    Hitomi Daniela Hashimoto Teramoto,
+    Héctor Alberto Renteria Marin, Jemima
+    Simons, Joan Augustin, Loïs de Pechy,
+    Lux Rodriguez Groenevald, Milou Kester,
+    Mojtaba Zoghifard, Pedro Cacho Sedano,
+    Penny Hollis, Riccardo Boscaini
+  class_image:
+    - file://n2j69ljphj5yja1a
+  selected_projects: ""
+  class_year:
+    - 
+      start: 2024
+      end: 2027
+- 
+  class_id: ikigai
+  class_name: Ikigai
+  class_description_left: '„**Ikigai**“ ist ein japanisches Konzept, das den Sinn des Lebens oder die Bestimmung im Leben beschreibt. Es ist für jeden Menschen einzigartig und ermöglicht es, sich frei und authentisch auszudrücken, nach den eigenen Regeln und Werten.'
+  class_description_right: >
+    Als Gruppe verbindet uns die Suche nach
+    unserem eigenen Ikigai. Wir erforschen
+    unsere individuellen Eigenschaften,
+    unsere Rolle in der Welt (Gemeinschaft)
+    und entdecken, was wir als Künstler
+    ausdrücken möchten.
+  class_student_header: Die Studierende
+  class_names: >
+    Alva Nilsson, Ana Chuntisvili, Ana Paula
+    Salcido Roa, Aurora Pollini, Camila
+    Milton Frattari, Eleonora Poles, Emma
+    Steenblock, Fabio Camoirano, Giulia del
+    Grosso, Ida Zimmermann, Irene Lanzanò,
+    Karenina Lizama Leirana, Leonie Klamer,
+    Martina Vincenza Ventura, Melina
+    Papadopoulu, Milla Matthews, Orla Maria
+    Losardo, Peter Mani, Simone
+    Schachtschneider, Tara Thormann, Vignesh
+    Kumar, Yana Delibashev, Yareli Alejandra
+    Alvarado Macario
+  class_image:
+    - file://qsf0jcqcillvf2fx
+  selected_projects: aperception
+  class_year:
+    - 
+      start: 2023
+      end: 2026
+- 
+  class_id: ho’omau
+  class_name: Ho’omau
+  class_description_left: '**Ho’omau** steht für Widerstandsfähigkeit und Beharrlichkeit. Als Gruppe schätzen und vertrauen wir dem Wachstumsprozess in all seinen vielfältigen Formen. Im Bewusstsein, dass unsere Wege als Künstler nicht immer geradlinig oder unbedingt reibungslos verlaufen,'
+  class_description_right: >
+    können wir uns gegenseitig Halt geben
+    und gemeinsam weitermachen. Wir sind
+    eine Gruppe, die trotz aller Hindernisse
+    vorwärts geht und dabei lernt, als
+    Tänzer und vor allem als Menschen
+    füreinander da zu sein.
+  class_student_header: Die Studierende
+  class_names: 'Agnese Fornara Erbetta, Alanna Reimpell Bravo, Alessia Marra, Cristina Vaino, Daria Barbone, Daria Barbone, Denise Landini, Ellen Burgess, Emir García Pineda, Gina Kudzai Marange, Haeyeon Kang, Kyte Brüggmann, Luisa Fernanda Rivas Castillo, Nathalia Gómez Reséndiz, Oladé Roland Rodolpho Sagbo, Tatjana Walter, Wendy Yeh López,  Clara Bähr,  Edwin E. Sánchez,  Katherine Aileen Osalde Lezama,  Madeleine Julie Reichert'
+  class_image:
+    - file://0sszvdqv5cilq8r4
+  selected_projects: solo_project_2024, meeting_point
+  class_year:
+    - 
+      start: 2022
+      end: 2025
+
+----
+
+Show-footer-cta: true

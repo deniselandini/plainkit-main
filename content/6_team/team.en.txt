@@ -6,7 +6,7 @@ Intro-headline: Team
 
 ----
 
-Intro-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+Intro-text: As the **management team** of the *CDSH*, ***Javier Báez, Raul Valdez and Sina Rundel*** can draw on their many years of artistic and pedagogical experience to guarantee a high-quality, real-world preparation for the profession of contemporary stage dancer in their training program.
 
 ----
 
@@ -18,7 +18,7 @@ Leadership-headline: Management Team
 
 ----
 
-Leadership-text: As the management team of CDSH, Javier Báez, Raul Valdez, and Sina Rundel can draw on their many years of artistic and pedagogical experience to guarantee a high-quality, real-world preparation for the profession of contemporary stage dancer in their training program.
+Leadership-text: As the management team of CDSH, **Javier Báez, Raul Valdez, and Sina Rundel** can draw on their many years of artistic and pedagogical experience to guarantee a high-quality, real-world preparation for the profession of contemporary stage dancer in their training program.
 
 ----
 
@@ -142,63 +142,79 @@ Docents-members:
 - 
   member_id: hellena_stemm
   member_name: Hellena Stemm
-  member_biography: |
-    HELLENA STEMM completed her training as a dancer and dance instructor in Hamburg, Munich, San Francisco and New York, where she focused on classical ballet, modern dance and dance education. She has performed classical and modern repertoire as a soloist and guest soloist, as well as a company member in various companies. In addition, she has worked with fringe groups, has performed as a dancer in cinema and experimental films as well as video clips, and taken part in choreographic competitions.
-    
-    Since 1992, Hellena has mainly worked as an instructor at vocational schools, and as a guest instructor of classical ballet. She also gives open dance classes for professional and semi-professional dancers and students.
+  member_biography_left: ""
+  member_biography_right: ""
   member_image:
     - file://etomrx6fwqzj9zyb
   member_role: Teacher
   member_subjects: Ballet
+  member_biography: |
+    HELLENA STEMM completed her training as a dancer and dance instructor in Hamburg, Munich, San Francisco and New York, where she focused on classical ballet, modern dance and dance education. She has performed classical and modern repertoire as a soloist and guest soloist, as well as a company member in various companies. In addition, she has worked with fringe groups, has performed as a dancer in cinema and experimental films as well as video clips, and taken part in choreographic competitions.
+    
+    Since 1992, Hellena has mainly worked as an instructor at vocational schools, and as a guest instructor of classical ballet. She also gives open dance classes for professional and semi-professional dancers and students.
 - 
   member_id: mihir_grover
   member_name: Mihir Grover
-  member_biography: |
-    MIHIR GROVER was born in Mumbai, India. He has trained with Terence Lewis Contemporary Dance Company from 2005-2014 where he worked as performer, teacher and Assistant rehersal director. In 2014 he went to train with the Kibbutz Contemporary dance Company dance journey program in Israel for 10 months and then went on to perform with Fresco Dance company in Tel Aviv , Israel, from 2015-2017. Mihir is assistant choreographer for Disney India Musical Aladdin. His creation “The Source” was showcased at Tanzwerkstatt Munich in 2021 and Fringe North Canada.
-    
-    Mihir teaches Contemporary and Contemporary Floorwork at CDSH.
+  member_biography_left: ""
+  member_biography_right: ""
   member_image:
     - file://e0jgi3crngxxcotm
   member_role: Teacher, Choreographer
   member_subjects: Choreography, Contemporary, Floorwork
+  member_biography: |
+    MIHIR GROVER was born in Mumbai, India. He has trained with Terence Lewis Contemporary Dance Company from 2005-2014 where he worked as performer, teacher and Assistant rehersal director. In 2014 he went to train with the Kibbutz Contemporary dance Company dance journey program in Israel for 10 months and then went on to perform with Fresco Dance company in Tel Aviv , Israel, from 2015-2017. Mihir is assistant choreographer for Disney India Musical Aladdin. His creation “The Source” was showcased at Tanzwerkstatt Munich in 2021 and Fringe North Canada.
+    
+    Mihir teaches Contemporary and Contemporary Floorwork at CDSH.
 - 
   member_id: stacey_denham
   member_name: Stacey Denham
+  member_biography_left: ""
+  member_biography_right: ""
+  member_image:
+    - file://ce8rpgsnfvzubu8h
+  member_role: Teacher
+  member_subjects: Horton Technique
   member_biography: |
     STACEY DENHAM was born is New York. She has performed together with Alvin Ailey, Eleo Pomare, Bill T. Jones, Chuck Davis, Ulysses Dove and Judith Jamison.
     
     In the 1990s, Stacey increasingly dedicated herself to teaching and choreography in Europe and the United States. She has worked as an instructor at prestigious national and international institutes for many years. These include the Alvin Ailey Dance Center, Theater an der Wien, the Joop van den Ende Academy and the Deutsche Schauspielhaus.
     
     She has also been the director of the contemporary dance department at the School of the Hamburg Ballet John Neumeier for many years.
-  member_image:
-    - file://ce8rpgsnfvzubu8h
-  member_role: Teacher
-  member_subjects: Horton Technique
 - 
   member_id: victoria_onzález
   member_name: Victoria González
-  member_biography: |
-    VICTORIA GONZÁLEZ, born in Saltillo, Mexico, studied modern dance with a focus on Graham technique at the CENADAC-Centro Nacional de Danza Contemporanea in Querétaro, Mexico.
-    
-    She completed her studies with a degree in professional dance and worked on dance projects, which she presented at various theatres in Mexico. At the same time, Victoria became increasingly involved in teaching. She developed a new approach to the Graham technique, providing contemporary dancers, in particular, with optimal support in their technical development.
+  member_biography_left: ""
+  member_biography_right: ""
   member_image:
     - file://4csi5yukimozqvwo
   member_role: Teacher
   member_subjects: Graham Technique
+  member_biography: |
+    VICTORIA GONZÁLEZ, born in Saltillo, Mexico, studied modern dance with a focus on Graham technique at the CENADAC-Centro Nacional de Danza Contemporanea in Querétaro, Mexico.
+    
+    She completed her studies with a degree in professional dance and worked on dance projects, which she presented at various theatres in Mexico. At the same time, Victoria became increasingly involved in teaching. She developed a new approach to the Graham technique, providing contemporary dancers, in particular, with optimal support in their technical development.
 - 
   member_id: isabel_navarro
   member_name: Isabel Navarro
-  member_biography: |
-    ISABEL NAVARRO comes from Spain. She completed her drama training in Paris at the École Internationale de Théâtre de Jacques Lecoq. She took speech and voice classes with Ingeborg Honigmann-Rapp (Hamburg) and Jesús Aladrén (Madrid). She studied theatre and literature in Berlin and Hamburg.
-    
-    She has worked as a stage actress in Germany and Spain, has performed in television productions, and worked as a speaker in synchronisation, radio and voice-over. Her own productions were shown in the Malersaal (Schauspielhaus Hamburg), in the Thalia Theater and Kampnagel. She has worked as an instructor for drama at private schools for many years.
+  member_biography_left: ""
+  member_biography_right: ""
   member_image:
     - file://0jiiehnsgjer6xzx
   member_role: Teacher
   member_subjects: Drama
+  member_biography: |
+    ISABEL NAVARRO comes from Spain. She completed her drama training in Paris at the École Internationale de Théâtre de Jacques Lecoq. She took speech and voice classes with Ingeborg Honigmann-Rapp (Hamburg) and Jesús Aladrén (Madrid). She studied theatre and literature in Berlin and Hamburg.
+    
+    She has worked as a stage actress in Germany and Spain, has performed in television productions, and worked as a speaker in synchronisation, radio and voice-over. Her own productions were shown in the Malersaal (Schauspielhaus Hamburg), in the Thalia Theater and Kampnagel. She has worked as an instructor for drama at private schools for many years.
 - 
   member_id: yolanda_morales
   member_name: Yolanda Morales
+  member_biography_left: ""
+  member_biography_right: ""
+  member_image:
+    - file://ofakzalreebw6d97
+  member_role: Choreographer, Teacher
+  member_subjects: Choreography
   member_biography: |
     YOLANDA MORALES, born in Mexico, is a Hamburg based choreographer, dancer and performer. After receiving her dance education at the Universidad de Ciencias y Artes in Chiapas and at the Universidad in Puebla (BUAP) (Acap-INBA) in  Mexico, she completed the Master in Performance Studies at the University of Hamburg in 2018.
     
@@ -207,25 +223,19 @@ Docents-members:
     Her productions 2666, NERVEN and HORSES have been and are invited to festivals in Germany and internationally. In cooperation with the Markk Museum and supported by the program #TakePart from the Fonds Darstellende Künste, Morales has developed the project MOVING IMAGINATIVE BODIES, a format of open rehearsals and workshops. She showed her solo works on different stages and in galleries of Mexico and Germany. Among others, Yolanda works with the choreographers Patricia Carolin Mai, Yolanda Gutiérrez, Fernanda Ortiz, Barbara Schmidt Rohr, Juan Dominguez and Arantxa and José Vidal. Recently she has worked as a choreographer with the artistic collective POOL by YOVO! YOVO! and the Theater Peripherie directed by Ute Bansemir in Frankfurt.
     
     Since 2022 Yolanda is choreographing for and with the first educational year of the Contemporary Dance School Hamburg.
-  member_image:
-    - file://ofakzalreebw6d97
-  member_role: Choreographer, Teacher
-  member_subjects: Choreography
 - 
   member_id: katharina_pfahl
   member_name: Katharina Pfahl
-  member_biography: |
-    KATHARINA PFAHL was trained as a dance instructor at the Erika Klütz Schule für Theatertanz and Tanzpädagogik in Hamburg. She took further courses in New York, and completed her Master’s degree in London at the Laban Center. She earned her Master of Science in Performance Enhancement, Anatomy/Physiology, Performance Psychology, Nutrition and Biomechanics.
-    
-    In addition to her work as a dance instructor at elementary and dance schools in Hamburg, Katharina also communicates anatomical basics in the areas of sport, dance and movement instruction.
+  member_biography_left: ""
+  member_biography_right: ""
   member_image:
     - file://k0uas5x75et6zrb1
   member_role: Teacher
   member_subjects: Anatomy
-
-----
-
-Show-footer-cta: true
+  member_biography: |
+    KATHARINA PFAHL was trained as a dance instructor at the Erika Klütz Schule für Theatertanz and Tanzpädagogik in Hamburg. She took further courses in New York, and completed her Master’s degree in London at the Laban Center. She earned her Master of Science in Performance Enhancement, Anatomy/Physiology, Performance Psychology, Nutrition and Biomechanics.
+    
+    In addition to her work as a dance instructor at elementary and dance schools in Hamburg, Katharina also communicates anatomical basics in the areas of sport, dance and movement instruction.
 
 ----
 
@@ -252,6 +262,10 @@ Roles-manager:
 - 
   role_id: guest_choreographer
   role_name: Guest Choreographer
+
+----
+
+Show-footer-cta: true
 
 ----
 

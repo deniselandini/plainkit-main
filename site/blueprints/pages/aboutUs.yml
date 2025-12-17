@@ -53,8 +53,11 @@ tabs:
       # --- SECTION 3: BANNER 1 ---
       line_2:
         type: line
+      section_banner_1:
+        label: 3. Banner 1
+        type: headline
       banner_text_1:
-        label: 3. First Loop Banner Text
+        label: First Loop Banner Text
         type: text
 
       # --- SECTION 4: SPLIT SECTIONS ---
@@ -111,8 +114,11 @@ tabs:
       # --- SECTION 6: BANNER 2 ---
       line_5:
         type: line
+      section_banner_2:
+        label: 6. Banner 2
+        type: headline
       banner_text_2:
-        label: 6. Second Loop Banner Text
+        label: Second Loop Banner Text
         type: text
 
       # --- SECTION 7: ARTISTIC CONCEPT ---
@@ -125,7 +131,7 @@ tabs:
         label: Section Title
         type: text
       concept_text_left:
-        label: Left Text (Quote Start)
+        label: First text
         type: textarea
         buttons: 
           - bold
@@ -133,7 +139,7 @@ tabs:
           - ul
           - ol
       concept_text_right:
-        label: Right Text (Quote End)
+        label: Second text
         type: textarea
         buttons: 
           - bold
@@ -165,5 +171,7 @@ tabs:
         type: files
 
       # --- SECTION 9: FOOTER CTA ---
+      line_8:
+        type: line
       footer_cta:
         extends: fields/footer_cta

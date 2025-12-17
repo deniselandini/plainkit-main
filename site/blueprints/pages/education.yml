@@ -64,8 +64,23 @@ tabs:
         type: text
         help: e.g. REGISTER NOW
 
-      # --- SECTION 4: SUBJECTS SELECTOR ---
+      # --- SECTION 4: SUBJECT BALLS ---
       line_3:
+        type: line
+      section_subjects_balls_label:
+        label: 3. Subjects balls
+        type: headline
+
+      subjects_balls_title:
+        label: Subject group title
+        type: text
+
+      subjects_balls_description:
+        label: Subject group description
+        type: text
+
+      # --- SECTION 5: SUBJECTS SELECTOR ---
+      line_4:
         type: line
       section_subjects_label:
         label: 4. Subjects List
@@ -111,8 +126,8 @@ tabs:
               text: "{{ item.category_name }}"
               value: "{{ item.category_name }}"
 
-     # --- SECTION 5: PROGRAM STRUCTURE ---
-      line_4:
+     # --- SECTION 6: PROGRAM STRUCTURE ---
+      line_5:
         type: line
       section_program_structure:
         label: 5. Program Structure & Requirements
@@ -143,8 +158,8 @@ tabs:
           - ol
         help: Text about credits (ECTS) and previous studies.
 
-      # --- SECTION 6: AUSBUILDUNG (3 years program) ---
-      line_5:
+      # --- SECTION 7: AUSBUILDUNG (3 years program) ---
+      line_6:
         type: line
       section_split:
         label: 6. Ausbildung Years
@@ -193,8 +208,8 @@ tabs:
           - ul
           - ol
 
-      # --- SECTION 7: COSTS ---
-      line_6:
+      # --- SECTION 8: COSTS ---
+      line_7:
         type: line
       section_structure_label:
         label: 7. Costs
@@ -212,8 +227,8 @@ tabs:
           - ul
           - ol
 
-      # --- SECTION 8: FORTBUILDUNG ---
-      line_7:
+      # --- SECTION 9: FORTBUILDUNG ---
+      line_8:
         type: line
       section_fortbuildung_label:
         label: 8. Fortbuildung
@@ -222,8 +237,27 @@ tabs:
       fortbuildung_headline:
         label: Fortbuildung Headline
         type: text
-      fortbuildung_text:
-        label: Fortbuildung Description
+
+      fortbuildung_overview:
+        label: Fortbuildung Overview & Mission
+        type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
+
+      fortbuildung_schedule:
+        label: Fortbuildung Schedule & Curriculum
+        type: textarea
+        buttons: 
+          - bold
+          - italic
+          - ul
+          - ol
+
+      fortbuildung_requirement:
+        label: Fortbuildung Requirement & Enrollment
         type: textarea
         buttons: 
           - bold
@@ -237,8 +271,8 @@ tabs:
         max: 1
         query: page.images
 
-      # --- SECTION 9: AKTUELLES ---
-      line_8:
+      # --- SECTION 10: AKTUELLES ---
+      line_9:
         type: line
       section_aktuelles:
         label: 9. Aktuelles
@@ -247,8 +281,8 @@ tabs:
         label: Aktuelles Headline
         type: text
 
-      # --- SECTION 10: FOOTER CTA ---
-      line_9:
+      # --- SECTION 11: FOOTER CTA ---
+      line_10:
         type: line
       footer_cta:
         extends: fields/footer_cta

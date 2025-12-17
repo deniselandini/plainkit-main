@@ -32,6 +32,26 @@ return [
                 }
             ],
 
+            //BANNER AUDITION
+            [
+                'pattern' => 'banner_audition',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () use ($origin, $is_origin_allowed) {
+                    $langCode = get('lang', 'en');
+                    kirby()->setCurrentLanguage($langCode);
+
+                    if ($is_origin_allowed) {
+                        header("Access-Control-Allow-Origin: $origin");
+                        header('Access-Control-Allow-Methods: GET, OPTIONS');
+                        header('Access-Control-Allow-Headers: Content-Type');
+                    }
+
+                    // Questo carica il file che hai creato nel punto 1
+                    return require kirby()->root('snippets') . '/banner_audition.json.php';
+                }
+            ],
+
             // HOME
             [
                 'pattern' => 'home',

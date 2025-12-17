@@ -1,4 +1,4 @@
-<?php if ($page->show_footer_cta()->toBool()): ?>
+
   <section class="footer-cta">
     <div class="container">
       <h2><?= $site->global_cta_title()->esc() ?></h2>
@@ -7,4 +7,3 @@
       </div>
     </div>
   </section>
-<?php endif; ?>

@@ -6,7 +6,7 @@ Header-title: About Us
 
 ----
 
-Header-text: The CDSH training program combines the diversity of contemporary dance with the individual artistic needs of the students and the requirements of the international industry.
+Header-text: The  **CDSH** training program combines the diversity of  *contemporary* dance with the individual artistic needs of the students and the requirements of the international industry.
 
 ----
 
@@ -14,11 +14,11 @@ Header-image: - file://is3x30qu9eadb7wv
 
 ----
 
-Description-left: The Contemporary Dance School Hamburg offers you high-level contemporary dance and the development of your artistic personality through exchange with experienced mentors from around the world. Daily training prepares you for the demands of a career in stage dance. As a state-accredited vocational school for contemporary stage dance, the CDSH offers you a three-year, practice-oriented dance education, connects you with artists in the scene, and
+Description-left: The **Contemporary Dance School Hamburg** offers you high-level contemporary dance and the development of your artistic personality through exchange with experienced mentors from around the world. Daily training prepares you for the demands of a career in stage dance. As a state-accredited vocational school for contemporary stage dance, the CDSH offers you a three-year, practice-oriented dance education, connects you with artists in the scene, and
 
 ----
 
-Description-right: collaborates with many relevant areas of dance education. An effective curriculum helps you develop technically, artistically, and creatively. Through choreographic project work, you gain an understanding of professional practice and acquire stage experience through regular performances in theaters. An experienced team of artists and educators supports you in your development during your dance training.
+Description-right: collaborates with many relevant areas of dance education. An effective curriculum helps you develop technically, artistically, and creatively. Through *choreographic* project work, you gain an understanding of *professional practice* and acquire stage experience through regular performances in theaters. An experienced team of artists and educators supports you in your development during your dance training.
 
 ----
 
@@ -30,35 +30,21 @@ Split-sections:
 
 - 
   title: 'Talent, Technique & Dance Language'
-  text: >
-    We foster the development of individual
-    artistic personality. This is based on a
-    solid foundation in established dance
-    styles.
+  text: 'We foster the development of  **individual artistic personality.** This is based on a solid foundation in established dance styles.'
   image:
     - file://is3x30qu9eadb7wv
   reverse: 'false'
   bottom_border: 'false'
 - 
   title: 'Support & Cooperation'
-  text: >
-    We also help you find jobs after
-    graduation and provide rehearsal spaces
-    free of charge. Furthermore, you will
-    benefit from our network of
-    international mentors during your
-    training.
+  text: 'We also help you **find jobs** after graduation and provide rehearsal spaces free of charge. Furthermore, you will benefit from our network of international mentors during your training.'
   image:
     - file://bik3jh6d1s6aq4uf
   reverse: 'true'
   bottom_border: 'false'
 - 
   title: 'Choreography & Practice'
-  text: >
-    We develop targeted choreographies and
-    gain extensive experience on local
-    stages and at events during our
-    training.
+  text: 'We develop targeted **choreographies** and gain extensive **experience** on local stages and at events during our training.'
   image:
     - file://9cxie6b7sh5cukyd
   reverse: 'false'
@@ -97,7 +83,7 @@ Concept-title: Artistic concept
 
 ----
 
-Concept-text-left: “In my role as Artistic Director of the Contemporary Dance School Hamburg (CDSH), I combine the CDSH’s creative and technical potential with the demands of a practice-oriented education for contemporary stage dance. My goal is to enable future dancers to be integrated into various productions and projects as effectively as possible during their training by fostering exchange between the CDSH and diverse artists and partners.
+Concept-text-left: “In my role as **Artistic Director** of the *Contemporary Dance School Hamburg* (CDSH), I combine the CDSH’s creative and technical potential with the demands of a practice-oriented education for contemporary stage dance. My goal is to enable future dancers to be integrated into various productions and projects as effectively as possible during their training by fostering exchange between the CDSH and diverse artists and partners.
 
 ----
 
