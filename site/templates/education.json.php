@@ -43,6 +43,20 @@ foreach ($page->subjects_list()->toStructure() as $sub) {
     ];
 }
 
+$subjectBalls = [];
+for ($i = 0; $i <= 5; $i++) {
+    $title = $page->{"subjects_ball_{$i}_title"}()->value();
+    $desc = $page->{"subjects_ball_{$i}_description"}()->value();
+
+    if (!empty($title)) {
+        $subjectBalls[] = [
+            'id' => $i,
+            'title' => $title,
+            'description' => $desc
+        ];
+    }
+}
+
 $ausbildungYears = [
     [
         'year' => 1,
@@ -90,6 +104,7 @@ return [
         'link_text' => $page->audition_link_text()->value(),
     ],
 
+    'subjects_balls' => $subjectBalls,
     'filterCategories' => $availableCategories,
     'subjects' => $subjectsArray,
 

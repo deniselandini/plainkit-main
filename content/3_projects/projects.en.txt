@@ -26,9 +26,11 @@ Projects-list:
     What does it mean to continue after such a shock, in and after a turbulent time? What can we learn? How do we rethink and adapt to new circumstances, how do we rebel against the old, how do we give a voice to the forgotten? In any case, the result is a transformation, a new awareness, and the beginning of a new path.
     
     This year, our year-end performances can also take place live in the theatre – even with a small audience (50 spectators per performance)!
+  project_impressions_header: Impressions
+  project_video_impressions: [ ]
+  project_photo_impressions: [ ]
   project_impressions:
     - file://yuqqhodhngfhgckc
-    - file://2sngamgpeasoo1ir
 - 
   project_id: reset
   project_name: Final Project
@@ -39,6 +41,9 @@ Projects-list:
   project_subjects: Choreography
   project_description_left: teato
   project_description_right: teato
+  project_impressions_header: Impressions
+  project_video_impressions: [ ]
+  project_photo_impressions: [ ]
   project_impressions:
     - file://urh1ou3wqlvc26ls
 - 
@@ -51,6 +56,9 @@ Projects-list:
   project_subjects: Solo project
   project_description_left: teato
   project_description_right: teato
+  project_impressions_header: Impressions
+  project_video_impressions: [ ]
+  project_photo_impressions: [ ]
   project_impressions:
     - file://pkcw7ye5zkypcmme
 - 
@@ -73,6 +81,11 @@ Projects-list:
     The **Ho’Omau class** invites you to embark on a delicious journey of three different dinners, each featuring a carefully assembled six-course meal. A variety of flavors is guaranteed to delight even the most refined and discerning palate. You will taste coldness and darkness, splashed with a dash of tenderness, as well as warmth and joy, accompanied by vibrant colors and aromas. A feast for the senses.
     
     *Whatever your eyes crave, we are.*
+  project_impressions_header: Impressions
+  project_video_impressions:
+    - file://2sngamgpeasoo1ir
+  project_photo_impressions:
+    - file://tuvhiiqjr1nwfq17
   project_impressions:
     - file://tuvhiiqjr1nwfq17
 - 
@@ -97,6 +110,9 @@ Projects-list:
     In times when fronts are hardening, populist rhetoric is mobilizing people, and political realities are being shaped, coming together is of particular importance. The world is not made up of a series of absolutes, but of a web of different truths. The only way to reconcile them is to listen to one another and to meet each other with empathy.
     
     Last but not least, we also find such meeting points within ourselves, when different aspects of the self enter into a dialogue: our own past and present, different emotional states, or contradictory desires and values.
+  project_impressions_header: Impressions
+  project_video_impressions: [ ]
+  project_photo_impressions: [ ]
   project_impressions:
     - file://illdyjnv0svddgil
 - 
@@ -109,6 +125,9 @@ Projects-list:
   project_subjects: Solo project
   project_description_left: teato
   project_description_right: teato
+  project_impressions_header: Impressions
+  project_video_impressions: [ ]
+  project_photo_impressions: [ ]
   project_impressions:
     - file://lvh7fszsiupmmejf
 

@@ -2,76 +2,96 @@ Title: dataProtection
 
 ----
 
-Main-headline: 
+Main-headline: Privacy Policy
 
 ----
 
 Privacy-text-blocks:
 
 - 
+  paragraph: '***1. An overview of data protection***'
+- 
   paragraph: |
-    1. An overview of data protection
-    
     **General information**
     
     The following information will provide you with an easy to navigate overview of what will happen with your personal data when you visit our website. The term “personal data” comprises all data that can be used to personally identify you. For detailed information about the subject matter of data protection, please consult our Data Protection Declaration, which we have included beneath this copy.
-    
-    Data recording on our website
-    
+- 
+  paragraph: '***2. Data recording on our website***'
+- 
+  paragraph: |
     **Who is the responsible party for the recording of data on this website (i.e. the “controller”)?**
     
     The data on this website is processed by the operator of the website, whose contact information is available under section “Information Required by Law” on this website.
-    
+- 
+  paragraph: |
     **How do we record your data?**
     
     We collect your data as a result of your sharing of your data with us. This may, for instance be information you enter into our contact form. Our IT systems automatically record other data when you visit our website. This data comprises primarily technical information (e.g. web browser, operating system or time the site was accessed). This information is recorded automatically when you access our website.
-    
+- 
+  paragraph: |
     **What are the purposes we use your data for?**
     
     A portion of the information is generated to guarantee the error free provision of the website. Other data may be used to analyse your user patterns.
-    
+- 
+  paragraph: |
     **What rights do you have as far as your information is concerned?**
     
     You have the right to receive information about the source, recipients and purposes of your archived personal data at any time without having to pay a fee for such disclosures. You also have the right to demand that your data are rectified, blocked or eradicated. Please do not hesitate to contact us at any time under the address disclosed in section “Information Required by Law” on this website if you have questions about this or any other data protection related issues. You also have the right to log a complaint with the competent supervising agency. Moreover, under certain circumstances, you have the right to demand the restriction of the processing of your personal data. For details, please consult the Data Protection Declaration under section “Right to Restriction of Data Processing.”
-    
-    2. General information and mandatory information
-    
+- 
+  paragraph: '***3. General information and mandatory information***'
+- 
+  paragraph: |
     **Data protection**
     
     The operators of this website and its pages take the protection of your personal data very seriously. Hence, we handle your personal data as confidential information and in compliance with the statutory data protection regulations and this Data Protection Declaration. Whenever you use this website, a variety of personal information will be collected. Personal data comprises data that can be used to personally identify you. This Data Protection Declaration explains which data we collect as well as the purposes we use this data for. It also explains how, and for which purpose the information is collected. We herewith advise you that the transmission of data via the Internet (i.e. through e-mail communications) may be prone to security gaps. It is not possible to completely protect data against third party access.
-    
+- 
+  paragraph: |
     **Information about the responsible party (referred to as the “controller” in the GDPR)**
-    The data processing controller on this website is:
-    Contemporary Dance School Hamburg GmbH
-    Stresemannstraße 374 (Eingang B)
-    22761 Hamburg
-    Phone: +49 40 41924560
-    E-mail: info@cdsh.de
-    The controller is the natural person or legal entity that single-handedly or jointly with others makes decisions as to the purposes of and resources for the processing of personal data (e.g. names, e-mail addresses, etc.).
     
+    The data processing controller on this website is:
+    
+    Contemporary Dance School Hamburg GmbH
+    
+    Stresemannstraße 374 (Eingang B)
+    
+    22761 Hamburg
+    
+    Phone: +49 40 41924560
+    
+    E-mail: info@cdsh.de
+    
+    The controller is the natural person or legal entity that single-handedly or jointly with others makes decisions as to the purposes of and resources for the processing of personal data (e.g. names, e-mail addresses, etc.).
+- 
+  paragraph: |
     **Revocation of your consent to the processing of data**
     
     A wide range of data processing transactions are possible only subject to your express consent. You can also revoke at any time any consent you have already given us. To do so, all you are required to do is sent us an informal notification via e-mail. This shall be without prejudice to the lawfulness of any data collection that occurred prior to your revocation.
-    
+- 
+  paragraph: |
     **Right to object to the collection of data in special cases; right to object to direct advertising (Art. 21 GDPR)
     In the event that data are processed on the basis of Art. 6 Sect. 1 lit. e or f GDPR, you have the right to at any time object to the processing of your personal data based on grounds arising from your unique situation. This also applies to any profiling based on these provisions. To determine the legal basis, on which any processing of data is based, please consult this Data Protection Declaration. If you log an objection, we will no longer process your affected personal data, unless we are in a position to present compelling protection worthy grounds for the processing of your data, that outweigh your interests, rights and freedoms or if the purpose of the processing is the claiming, exercising or defence of legal entitlements (objection pursuant to Art. 21 Sect. 1 GDPR). If your personal data is being processed in order to engage in direct advertising, you have the right to at any time object to the processing of your affected personal data for the purposes of such advertising. This also applies to profiling to the extent that it is affiliated with such direct advertising. If you object, your personal data will subsequently no longer be used for direct advertising purposes (objection pursuant to Art. 21 Sect. 2 GDPR).**
-    
+- 
+  paragraph: |
     **Right to log a complaint with the competent supervisory agency**
     
     In the event of violations of the GDPR, data subjects are entitled to log a complaint with a supervisory agency, in particular in the member state where they usually maintain their domicile, place of work or at the place where the alleged violation occurred. The right to log a complaint is in effect regardless of any other administrative or court proceedings available as legal recourses.
-    
+- 
+  paragraph: |
     **Right to data portability**
     
     You have the right to demand that we hand over any data we automatically process on the basis of your consent or in order to fulfil a contract be handed over to you or a third party in a commonly used, machine readable format. If you should demand the direct transfer of the data to another controller, this will be done only if it is technically feasible.
-    
+- 
+  paragraph: |
     **SSL and/or TLS encryption**
     
     For security reasons and to protect the transmission of confidential content, such as purchase orders or inquiries you submit to us as the website operator, this website uses either an SSL or a TLS encryption programme. You can recognise an encrypted connection by checking whether the address line of the browser switches from “http://” to “https://” and also by the appearance of the lock icon in the browser line. If the SSL or TLS encryption is activated, data you transmit to us cannot be read by third parties.
-    
+- 
+  paragraph: |
     **Information about, blockage, rectification and eradication of data**
     
     Within the scope of the applicable statutory provisions, you have the right to at any time demand information about your archived personal data, their source and recipients as well as the purpose of the processing of your data. You may also have a right to have your data rectified, blocked or eradicated. If you have questions about this subject matter or any other questions about personal data, please do not hesitate to contact us at any time at the address provided in section “Information Required by Law.”
-    
+- 
+  paragraph: |
     **Right to demand processing restrictions**
     
     You have the right to demand the imposition of restrictions as far as the processing of your personal data is concerned. To do so, you may contact us at any time at the address provided in section “Information Required by Law.” The right to demand restriction of processing applies in the following cases:
@@ -81,17 +101,20 @@ Privacy-text-blocks:
     - If we do not need your personal data any longer and you need it to exercise, defend or claim legal entitlements, you have the right to demand the restriction of the processing of your personal data instead of its eradication.
     - If you have raised an objection pursuant to Art. 21 Sect. 1 GDPR, your rights and our rights will have to be weighed against each other. As long as it has not been determined whose interests prevail, you have the right to demand a restriction of the processing of your personal data.
     - If you have restricted the processing of your personal data, these data – with the exception of their archiving – may be processed only subject to your consent or to claim, exercise or defend legal entitlements or to protect the rights of other natural persons or legal entities or for important public interest reasons cited by the European Union or a member state of the EU.
-    
+- 
+  paragraph: |
     **Rejection of unsolicited e-mails**
     
     We herewith object to the use of contact information published in conjunction with the mandatory information to be provided in section “Information Required by Law” to send us promotional and information material that we have not expressly requested. The operators of this website and its pages reserve the express right to take legal action in the event of the unsolicited sending of promotional information, for instance via SPAM messages.
-    
-    3. Recording of data on our website
-    
+- 
+  paragraph: '***4. Recording of data on our website***'
+- 
+  paragraph: |
     **Cookies**
     
     In some instances, our website and its pages use so-called cookies. Cookies do not cause any damage to your computer and do not contain viruses. The purpose of cookies is to make our website more user friendly, effective and more secure. Cookies are small text files that are placed on your computer and stored by your browser. Most of the cookies we use are so-called “session cookies.” They are automatically deleted after your leave our site. Other cookies will remain archived on your device until you delete them. These cookies enable us to recognise your browser the next time you visit our website. You can adjust the settings of your browser to make sure that you are notified every time cookies are placed and to enable you to accept cookies only in specific cases or to exclude the acceptance of cookies for specific situations or in general and to activate the automatic deletion of cookies when you close your browser. If you deactivate cookies, the functions of this website may be limited. Cookies that are required for the performance of the electronic communications transaction or to provide certain functions you want to use (e.g. the shopping cart function), are stored on the basis of Art. 6 Sect. 1 lit. f GDPR. The website operator has a legitimate interest in storing cookies to ensure the technically error free and optimised provision of the operator’s services. If other cookies (e.g. cookies for the analysis of your browsing patterns) should be stored, they are addressed separately in this Data Protection Declaration.
-    
+- 
+  paragraph: |
     **Server log files**
     
     The provider of this website and its pages automatically collects and stores information in so-called server log files, which your browser communicates to us automatically. The information comprises:
@@ -102,8 +125,10 @@ Privacy-text-blocks:
     - The hostname of the accessing computer
     - The time of the server inquiry
     - The IP address
-    - This data is not merged with other data sources. This data is recorded on the basis of Art. 6 Sect. 1 lit. f GDPR. The operator of the website has a legitimate interest in the technically error free depiction and the optimization of the operator’s website. In order to achieve this, server log files must be recorded.
     
+    This data is not merged with other data sources. This data is recorded on the basis of Art. 6 Sect. 1 lit. f GDPR. The operator of the website has a legitimate interest in the technically error free depiction and the optimization of the operator’s website. In order to achieve this, server log files must be recorded.
+- 
+  paragraph: |
     **Contact form**
     
     If you submit inquiries to us via our contact form, the information provided in the contact form as well as any contact information provided therein will be stored by us in order to handle your inquiry and in the event that we have further questions. We will not share this information without your consent.
@@ -111,26 +136,29 @@ Privacy-text-blocks:
     Hence, the processing of the data entered into the contact form occurs exclusively based on your consent (Art. 6 Sect. 1 lit. a GDPR). You have the right to revoke at any time any consent you have already given us. To do so, all you are required to do is sent us an informal notification via e-mail. This shall be without prejudice to the lawfulness of any data collection that occurred prior to your revocation.
     
     The information you have entered into the contact form shall remain with us until you ask us to eradicate the data, revoke your consent to the archiving of data or if the purpose for which the information is being archived no longer exists (e.g. after we have concluded our response to your inquiry). This shall be without prejudice to any mandatory legal provisions – in particular retention periods.
-    
+- 
+  paragraph: |
     **Request by e-mail, telephone or fax**
     
     If you contact us by e-mail, telephone or fax, your request, including all resulting personal data (name, request) will be stored and processed by us for the purpose of processing your request. We do not pass these data on without your consent. The processing of these data is based on Art. 6 para. 1 lit. b GDPR, if your request is related to the execution of a contract or if it is necessary to carry out pre-contractual measures. In all other cases, the processing is based on your consent (Article 6 (1) a GDPR) and/or on our legitimate interests (Article 6 (1) (f) GDPR), since we have a legitimate interest in the effective processing of requests addressed to us. The data sent by you to us via contact requests remain with us until you request us to delete, revoke your consent to the storage or the purpose for the data storage lapses (e.g. after completion of your request). Mandatory statutory provisions – in particular statutory retention periods – remain unaffected.
-    
+- 
+  paragraph: |
     **Processing of data (customer and contract data)**
     
     We collect, process and use personal data only to the extent necessary for the establishment, content organization or change of the legal relationship (data inventory). These actions are taken on the basis of Art. 6 Sect. 1 lit. b GDPR, which permits the processing of data for the fulfilment of a contract or pre-contractual actions. We collect, process and use personal data concerning the use of our website (usage data) only to the extent that this is necessary to make it possible for users to utilize the services and to bill for them. The collected customer data shall be eradicated upon completion of the order or the termination of the business relationship. This shall be without prejudice to any statutory retention mandates.
-    
-    4. Social media
-    
+- 
+  paragraph: '***5. Social media***'
+- 
+  paragraph: |
     **Facebook plug-ins (Like & Share button)**
     
     We have integrated plug-ins of the social network Facebook, provided by Facebook Inc., 1 Hacker Way, Menlo Park, California 94025, USA, on our website. You will be able to recognise Facebook plug-ins by the Facebook logo or the “Like” button on our website. An overview of the Facebook plug-ins is available under the following link: https://developers.facebook.com/docs/plugins/.
     
     Whenever you visit our website and its pages, the plug-in will establish a direct connection between your browser and the Facebook server. As a result, Facebook will receive the information that you have visited our website with your plug-in. However, if you click the Facebook “Like” button while you are logged into your Facebook account, you can link the content of our website and its pages with your Facebook profile. As a result, Facebook will be able to allocate the visit to our website and its pages to your Facebook user account. We have to point out, that we as the provider of the website do not have any knowledge of the transferred data and its use by Facebook. For more detailed information, please consult the Data Privacy Declaration of Facebook at: https://www.facebook.com/privacy/explanation. If you do not want Facebook to be able to allocate your visit to our website and its pages to your Facebook user account, please log out of your Facebook account while you are on our website. The use of the Facebook plug-in is based on Art. 6 Sect. 1 lit. f GDPR. The operator of the website has a legitimate interest in being as visible as possible on social media.
-    
-    
-    5. Newsletter
-    
+- 
+  paragraph: '***6. Newsletter***'
+- 
+  paragraph: |
     **Newsletter data**
     
     If you would like to subscribe to the newsletter offered on this website, we will need from you an e-mail address as well as information that allow us to verify that you are the owner of the e-mail address provided and consent to the receipt of the newsletter. No further data shall be collected or shall be collected only on a voluntary basis. We shall use such data only for the sending of the requested information and shall not share such data with any third parties.
@@ -138,32 +166,52 @@ Privacy-text-blocks:
     The processing of the information entered into the newsletter subscription form shall occur exclusively on the basis of your consent (Art. 6 Sect. 1 lit. a GDPR). You may revoke the consent you have given to the archiving of data, the e-mail address and the use of this information for the sending of the newsletter at any time, for instance by clicking on the “Unsubscribe” link in the newsletter. This shall be without prejudice to the lawfulness of any data processing transactions that have taken place to date.
     
     The data you archive with us for the purpose of the newsletter subscription shall be archived by us until you unsubscribe from the newsletter. Once you cancel your subscription to the newsletter, the data shall be deleted. This shall not affect data we have been archiving for other purposes.
-    
-    
-    6. Plug-ins and Tools
-    
+- 
+  paragraph: '***7. Plug-ins and Tools***'
+- 
+  paragraph: |
     **Vimeo**
     
     Our website uses plug-ins of the video portal Vimeo. The provider is Vimeo Inc., 555 West 18th Street, New York, New York 10011, USA. If you visit one of the pages on our website into which a Vimeo plug-in has been integrated, a connection to Vimeo’s servers will be established. As a consequence, the Vimeo server will receive information as to which of our pages you have visited. Moreover, Vimeo will receive your IP address. This will also happen if you are not logged into Vimeo or do not have an account with Vimeo. The information recorded by Vimeo will be transmitted to Vimeo’s server in the United States. If you are logged into your Vimeo account, you enable Vimeo to directly allocate your browsing patterns to your personal profile. You can prevent this by logging out of your Vimeo account. The use of Vimeo is based on our interest in presenting our online content in an appealing manner. Pursuant to Art. 6 Sect. 1 lit. f GDPR, this is a legitimate interest. For more information on how Vimeo handles user data, please consult the Vimeo Data Privacy Policy under: https://vimeo.com/privacy.
-    
-    
-    7. Custom Services
-    
+- 
+  paragraph: '***8. Custom Services***'
+- 
+  paragraph: |
     **Applications / Auditions**
     
     We offer website visitors the opportunity to submit job applications to us (e.g. via e-mail, via postal services on by submitting the online job application form). Below, we will brief you on the scope, purpose and use of the personal data collected from you in conjunction with the application process. We assure you that the collection, processing and use of your data will occur in compliance with the applicable data privacy rights and all other statutory provisions and that your data will always be treated as strictly confidential.
-    
+- 
+  paragraph: |
     — Scope and purpose of the collection of data
     
     If you submit a job application to us, we will process any affiliated personal data (e.g. contact and communications data, application documents, notes taken during job interviews, etc.), if they are required to make a decision concerning the establishment or an employment relationship. The legal grounds for the aforementioned are § 26 New GDPR according to German Law (Negotiation of an Employment Relationship), Art. 6 Sect. 1 lit. b GDPR (General Contract Negotiations) and – provided you have given us your consent – Art. 6 Sect. 1 lit. a GDPR. You may revoke any consent given at any time. Within our company, your personal data will only be shared with individuals who are involved in the processing of your job application. If your job application should result in your recruitment, the data you have submitted will be archived on the grounds of § 26 New GDPR and Art. 6 Sect. 1 lit. b GDPR for the purpose of implementing the employment relationship in our data processing system.
-    
+- 
+  paragraph: |
     — Data Archiving Period
     
     If we should not be able to offer you a position, if you refuse a job offer, retract your application, revoke your consent to the processing of your data or ask us to delete your data, we will store your transferred data, incl. any physically submitted application documents for a maximum of 6 months after the conclusion of the application process (retention period) to enable us to track the details of the application process in the event of disparities (Art. 6 Sect. 1 lit. f GDPR).
-    
-    *YOU HAVE THE OPTION TO OBJECT TO THIS STORAGE/RETENTION OF YOUR DATA IF YOU HAVE LEGITIMATE INTERESTS TO DO SO THAT OUTWEIGH OUR INTERESTS.*
-    
-    Once the retention period has expired, the data will be deleted, unless we are subject to any other statutory retention obligations or if any other legal grounds exist to continue to store the data. If it should be foreseeable that the retention of your data will be necessary after the retention period has expired (e.g. due to imminent or pending litigation), the data shall not be deleted until the data have become irrelevant. This shall be without prejudice to any other statutory retention periods.
+- 
+  paragraph: >
+    YOU HAVE THE OPTION TO OBJECT TO THIS
+    STORAGE/RETENTION OF YOUR DATA IF YOU
+    HAVE LEGITIMATE INTERESTS TO DO SO THAT
+    OUTWEIGH OUR INTERESTS.
+- 
+  paragraph: >
+    Once the retention period has expired,
+    the data will be deleted, unless we are
+    subject to any other statutory retention
+    obligations or if any other legal
+    grounds exist to continue to store the
+    data. If it should be foreseeable that
+    the retention of your data will be
+    necessary after the retention period has
+    expired (e.g. due to imminent or pending
+    litigation), the data shall not be
+    deleted until the data have become
+    irrelevant. This shall be without
+    prejudice to any other statutory
+    retention periods.
 
 ----
 

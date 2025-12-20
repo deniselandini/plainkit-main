@@ -201,7 +201,7 @@ Docents-members:
   member_image:
     - file://0jiiehnsgjer6xzx
   member_role: Teacher
-  member_subjects: Drama
+  member_subjects: Drama, History of Dance
   member_biography: |
     ISABEL NAVARRO comes from Spain. She completed her drama training in Paris at the École Internationale de Théâtre de Jacques Lecoq. She took speech and voice classes with Ingeborg Honigmann-Rapp (Hamburg) and Jesús Aladrén (Madrid). She studied theatre and literature in Berlin and Hamburg.
     

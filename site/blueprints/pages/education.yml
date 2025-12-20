@@ -64,19 +64,61 @@ tabs:
         type: text
         help: e.g. REGISTER NOW
 
-      # --- SECTION 4: SUBJECT BALLS ---
+      # --- SECTION 4: INTERACTIVE SUBJECT (BALLS) ---
       line_3:
         type: line
       section_subjects_balls_label:
         label: 3. Subjects balls
         type: headline
 
-      subjects_balls_title:
-        label: Subject group title
+      subjects_ball_0_title:
+        label: Default title
         type: text
 
-      subjects_balls_description:
-        label: Subject group description
+      subjects_ball_0_description:
+        label: Default description
+        type: text
+
+      subjects_ball_1_title:
+        label: Subject group 1 title
+        type: text
+
+      subjects_ball_1_description:
+        label: Subject group 1 description
+        type: text
+
+      subjects_ball_2_title:
+        label: Subject group 2 title
+        type: text
+
+      subjects_ball_2_description:
+        label: Subject group 2 description
+        type: text
+
+      subjects_ball_3_title:
+        label: Subject group3  title
+        type: text
+
+      subjects_ball_3_description:
+        label: Subject group 3 description
+        type: text
+
+      
+      subjects_ball_4_title:
+        label: Subject group 4 title
+        type: text
+
+      subjects_ball_4_description:
+        label: Subject group 4 description
+        type: text
+
+      
+      subjects_ball_5_title:
+        label: Subject group 5 title
+        type: text
+
+      subjects_ball_5_description:
+        label: Subject group 5 description
         type: text
 
       # --- SECTION 5: SUBJECTS SELECTOR ---

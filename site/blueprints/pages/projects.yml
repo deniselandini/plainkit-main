@@ -69,11 +69,21 @@ tabs:
               - ul
               - ol
             size: medium
-          project_impressions:
-            label: Impressions Gallery
+          project_impressions_header:
+            label: Title Impressions (e.g., Impressions)
+            type: text
+            required: true
+          project_video_impressions:
+            label: Impressions (Video)
             type: files
             layout: cards
             multiple: true
+            uery: page.video
+          project_photo_impressions:
+            label: Impressions (Photo)
+            type: files
+            layout: cards
+            multiple: page.images
 
 
   # --- TAB SETTINGS (Management categories) ---

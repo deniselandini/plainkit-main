@@ -26,11 +26,51 @@ Audition-link-text: JETZT ANMELDEN
 
 ----
 
-Subjects-balls-title: 
+Subjects-ball-0-title: Fächer
 
 ----
 
-Subjects-balls-description: 
+Subjects-ball-0-description: Eine Kombination aus fundierter Theorie und einem ganzheitlichen Mix aus praktischen Modulen bildet die Grundlage unseres Ausbildungsmodells.
+
+----
+
+Subjects-ball-1-title: Tanztechnik
+
+----
+
+Subjects-ball-1-description: Fokus auf die Perfektionierung des Körperbewusstseins, technischer Präzision und physischer Kraft in verschiedenen Stilen. Dieses Modul formt ein vielseitiges körperliches Instrument, das den hohen Anforderungen zeitgenössischer Choreografien gerecht wird.
+
+----
+
+Subjects-ball-2-title: Künstlerische Entwicklung
+
+----
+
+Subjects-ball-2-description: Eine Reise zur Entdeckung und Festigung der eigenen künstlerischen Identität und kreativen Stimme. Durch persönliche Recherche werden die Studierenden angeleitet, expressive Grenzen zu überschreiten und eine authentische, bewusste Bühnenpräsenz zu entwickeln.
+
+----
+
+Subjects-ball-3-title: Choreografische Praxis
+
+----
+
+Subjects-ball-3-description: Ein Laboratorium, das sich auf Kompositionsmethoden und den kreativen Prozess konzentriert. Die Studierenden lernen, Bewegung in Raum und Zeit zu strukturieren, und arbeiten mit Dozenten sowie Gastkünstlern zusammen, um abstrakte Konzepte in konkrete Performances zu verwandeln.
+
+----
+
+Subjects-ball-4-title: Bühnenpraxis
+
+----
+
+Subjects-ball-4-description: Die direkte Anwendung der erworbenen Fähigkeiten in einem realen Aufführungskontext. Dieses Fach bereitet auf die Bühne vor, indem es sich auf die Raumgestaltung, die Interaktion mit dem Publikum und die für professionelle Produktionen erforderliche Disziplin konzentriert.
+
+----
+
+Subjects-ball-5-title: Theorie
+
+----
+
+Subjects-ball-5-description: Ein fundiertes akademisches Fundament, das die physische Praxis mit Tanzgeschichte, angewandter Anatomie und Bewegungsanalyse verbindet. Diese Studien vermitteln die kritischen Werkzeuge, um den kulturellen und wissenschaftlichen Kontext des Tanzes zu verstehen.
 
 ----
 
@@ -140,6 +180,14 @@ Categories-manager:
 - 
   category_id: workshops
   category_name: Workshops
+
+----
+
+Subjects-balls-title: 
+
+----
+
+Subjects-balls-description: 
 
 ----
 

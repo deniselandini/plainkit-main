@@ -11,7 +11,22 @@ if ($searchId) {
     }
 
     $headerImg = $project->header_image()->toFile();
-    
+
+    $photos = $project->project_photo_impressions()->toFiles()->map(fn($f) => [
+        'src' => $f->url(),
+        'alt' => $f->alt()->value(),
+        'type' => 'image'
+    ])->values();
+
+    $videos = $project->project_video_impressions()->toFiles()->map(fn($v) => [
+        'src' => $v->url(),
+        'mime' => $v->mime(),
+        'type' => 'video'
+    ])->values();
+
+
+
+
     return [
         'id' => $project->project_id()->value(),
         'name' => $project->project_name()->value(),
@@ -21,7 +36,10 @@ if ($searchId) {
         'subjects' => $project->project_subjects()->split(','),
         'descriptionLeft' => $project->project_description_left()->value(),
         'descriptionRight' => $project->project_description_right()->value(),
-        'impressions' => $project->project_impressions()->toFiles()->map(fn($f) => ['src' => $f->url()])->values()
+        'titleImpressions' => $project->project_impressions_header()->value(),
+        'videos' => $videos,
+        'photos' => $photos,
+        'impressions' => array_merge($videos, $photos)
     ];
 }
 
@@ -36,7 +54,7 @@ foreach ($projects as $p) {
         // Add other fiels hier (see if it is necessary)
     ];
 
-    
+
 }
 
 return $allProjects;

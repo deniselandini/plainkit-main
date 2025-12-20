@@ -259,6 +259,13 @@ Subjects-list:
   image:
     - file://tfx1tvcmhiz2gyy7
   categories: Theory Subjects
+- 
+  id: ""
+  name: ""
+  teacher: ""
+  description: ""
+  image: [ ]
+  categories: ""
 
 ----
 
@@ -382,3 +389,7 @@ Show-footer-cta: true
 ----
 
 Uuid: xwzhx1djk5wfr67s
+
+----
+
+Lock: 302mb2dc

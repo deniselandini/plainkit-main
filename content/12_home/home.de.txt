@@ -18,11 +18,11 @@ Aktuelles-headline: Aktuelles
 
 ----
 
-Team-header: ÜBER UNS
+Team-header: Über uns
 
 ----
 
-Team-text: Die **CDSH** – Contemporary Dance School ist eine staatlich anerkannte Berufsschule für zeitgenössischen Bühnentanz. Das dreijährige Programm konzentriert sich auf zeitgenössisches und modernes klassisches Ballett.
+Team-text: Die *CDSH* – Contemporary Dance School ist eine staatlich anerkannte Berufsschule für zeitgenössischen Bühnentanz. Das dreijährige Programm konzentriert sich auf zeitgenössisches und modernes klassisches Ballett.
 
 ----
 

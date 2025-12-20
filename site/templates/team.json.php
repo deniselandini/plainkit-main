@@ -8,6 +8,28 @@ $docentsStructure = $page->docents_members()->toStructure();
 
 $roles_map = [];
 $availableRoles = [];
+
+$educationPage = $site->find('education');
+$availableCategories = [];
+$educationSubjects = [];
+
+if ($educationPage) {
+    foreach ($educationPage->categories_manager()->toStructure() as $cat) {
+        $availableCategories[] = [
+            'id' => $cat->category_id()->value(),
+            'name' => $cat->category_name()->value()
+        ];
+    }
+    foreach ($educationPage->subjects_list()->toStructure() as $subject) {
+        $subjectImage = $subject->image()->toFile();
+        $educationSubjects[] = [
+            'name' => $subject->name()->value(),
+            'teacher' => $subject->teacher()->value(),
+            'categories' => $subject->categories()->split(','),
+        ];
+    }
+}
+
 foreach ($page->roles_manager()->toStructure() as $role) {
     $id = $role->role_id()->value();
     $name = $role->role_name()->value();
@@ -65,7 +87,28 @@ if ($searchId) {
         ];
     }
 
+    // 1. Build a lookup map: 'Math' => ['Science', 'Core']
+    $subjectCategoriesMap = [];
+    foreach ($educationPage->subjects_list()->toStructure() as $sub) {
+        $name = $sub->name()->value();
+        $cats = $sub->categories()->split(','); // Returns array of strings
+        $subjectCategoriesMap[$name] = $cats;
+    }
+
     foreach ($docentsStructure as $docent) {
+        // 2. Collect all categories associated with these subjects
+        $currentDocentSubjects = $docent->member_subjects()->split(',');
+        $docentCategories = [];
+        foreach ($currentDocentSubjects as $subjectName) {
+            $subjectName = trim($subjectName);
+            
+            if (isset($subjectCategoriesMap[$subjectName])) {
+                $docentCategories = array_merge($docentCategories, $subjectCategoriesMap[$subjectName]);
+            }
+        }
+
+        $uniqueCategories = array_values(array_unique($docentCategories));
+        
         $imageFile = $docent->member_image()->toFile();
         $roleId = $docent->member_role()->value();
         $docentsArray[] = [
@@ -74,10 +117,13 @@ if ($searchId) {
             'role' => $roles_map[$roleId] ?? $roleId,
             'subjects' => $docent->member_subjects()->split(','),
             'src' => $imageFile ? $imageFile->url() : null,
+            'category' => $uniqueCategories 
         ];
     }
 
     return [
+        'educationCategories' => $availableCategories,
+        'educationSubjects' => $educationSubjects,
         'intro' => [
             'headline' => $page->intro_headline()->value(),
             'text' => $page->intro_text()->value(),
