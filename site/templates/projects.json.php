@@ -37,8 +37,8 @@ if ($searchId) {
         'descriptionLeft' => $project->project_description_left()->value(),
         'descriptionRight' => $project->project_description_right()->value(),
         'titleImpressions' => $project->project_impressions_header()->value(),
-        'videos' => $videos,
-        'photos' => $photos,
+        /* 'videos' => $videos,
+        'photos' => $photos, */
         'impressions' => array_merge($videos, $photos)
     ];
 }
