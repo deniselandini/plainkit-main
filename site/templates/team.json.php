@@ -11,7 +11,6 @@ $availableRoles = [];
 
 $educationPage = $site->find('education');
 $availableCategories = [];
-$educationSubjects = [];
 
 if ($educationPage) {
     foreach ($educationPage->categories_manager()->toStructure() as $cat) {
@@ -22,11 +21,6 @@ if ($educationPage) {
     }
     foreach ($educationPage->subjects_list()->toStructure() as $subject) {
         $subjectImage = $subject->image()->toFile();
-        $educationSubjects[] = [
-            'name' => $subject->name()->value(),
-            'teacher' => $subject->teacher()->value(),
-            'categories' => $subject->categories()->split(','),
-        ];
     }
 }
 
@@ -123,7 +117,6 @@ if ($searchId) {
 
     return [
         'educationCategories' => $availableCategories,
-        'educationSubjects' => $educationSubjects,
         'intro' => [
             'headline' => $page->intro_headline()->value(),
             'text' => $page->intro_text()->value(),

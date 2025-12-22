@@ -10,7 +10,7 @@ Header-image: - file://tfx1tvcmhiz2gyy7
 
 ----
 
-Intro-text-left: We enable dancers to engage sustainably with diverse **contemporary** and **classical** dance techniques and styles, as well as receive training in numerous forms of movement and expression to prepare them for a career. In addition to regular training, we regularly invite international guests who share their knowledge with our trainees.
+Intro-text-left: We enable dancers to engage **sustainably** with diverse **contemporary** and **classical** dance techniques and styles, as well as receive training in numerous forms of movement and expression to prepare them for a career. In addition to regular training, we regularly invite international guests who share their knowledge with our trainees.
 
 ----
 
@@ -259,6 +259,13 @@ Subjects-list:
   image:
     - file://tfx1tvcmhiz2gyy7
   categories: Theory Subjects
+- 
+  id: ""
+  name: ""
+  teacher: ""
+  description: ""
+  image: [ ]
+  categories: ""
 
 ----
 
@@ -266,11 +273,11 @@ Program-structure-title: Structure & Organization
 
 ----
 
-Program-structure-intro: This three-year program is designed for applicants with solid prior knowledge of contemporary dance and ballet. Admission is via audition.
+Program-structure-intro: This **three-year program** is designed for applicants with solid prior knowledge of contemporary dance and ballet. Admission is via audition.
 
 ----
 
-Program-structure-details: Credits from other degree programs may be transferable. Lorem Ipsum ... translate study to ECTS.
+Program-structure-details: Credits from other degree programs may be transferable. Lorem Ipsum ... translate study to **ECTS**.
 
 ----
 
@@ -282,7 +289,7 @@ Firstyear-level: Basics
 
 ----
 
-Firstyear-description: In the first year of training, the focus is on developing the basic dance techniques in various modern techniques, contemporary dance and classical ballet.
+Firstyear-description: In the **first year** of training, the focus is on developing the basic dance techniques in various modern techniques, contemporary dance and classical ballet.
 
 ----
 
@@ -294,7 +301,7 @@ Secondyear-level: Intensification and artistic development
 
 ----
 
-Secondyear-description: In the second year, the basic techniques are deepened and developed. The subject of improvisation, as well as the development and presentation of an original piece within our solo project, contribute to finding one's own artistic language and being able to individually implement one's own creative impulses based on the learned technical fundamentals.
+Secondyear-description: In the **second year**, the basic techniques are deepened and developed. The subject of improvisation, as well as the development and presentation of an original piece within our solo project, contribute to finding one's own artistic language and being able to individually implement one's own creative impulses based on the learned technical fundamentals.
 
 ----
 
@@ -306,7 +313,7 @@ Thirdyear-level: Specialization, independent artistic work and company project
 
 ----
 
-Thirdyear-description: In your third year, you'll work creatively with your class. Regular showings prepare you for the company project in the final semester, where you'll gain valuable insights into the professional lives of dancers under realistic dance company conditions.
+Thirdyear-description: In your **third year**, you'll work creatively with your class. Regular showings prepare you for the company project in the final semester, where you'll gain valuable insights into the professional lives of dancers under realistic dance company conditions.
 
 ----
 
@@ -314,7 +321,7 @@ Costs-headline: Cost
 
 ----
 
-Costs-text: The tuition fee for one academic year is €6,360.00 and can be paid in 12 monthly installments of €530.00. In addition, there is a mandatory contribution of €60.00 for the work-in-progress presentations in all three years of study, €120.00 for the final project in the first and second years, €240.00 for the final project at the end of the third year, and €160.00 for the solo project in the second year. The CDSH is recognized by the German Federal Training Assistance Act (BAföG) – we are happy to help you find an affordable student loan, which can be applied for starting in the second year of study.
+Costs-text: The tuition fee for one academic year is **€6,360.00 **and can be paid in 12 monthly installments of **€530.00**. In addition, there is a mandatory contribution of €60.00 for the work-in-progress presentations in all three years of study, €120.00 for the final project in the first and second years, **€240.00** for the final project at the end of the third year, and **€160.00** for the solo project in the second year. The CDSH is recognized by the German Federal Training Assistance Act (BAföG) – we are happy to help you find an affordable student loan, which can be applied for starting in the second year of study.
 
 ----
 
