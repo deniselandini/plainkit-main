@@ -27,6 +27,7 @@ tabs:
         label: Header Image (.png, .jpg, .jpeg)
         type: files
         max: 1
+        help: "Square format (1:1) and phone (16:9), 1200x1200px and phone 1280x720 recommended. Max file size: 1.5MB."
         query: page.images
 
       # --- SECTION 2: AUDITIONS LIST ---
@@ -75,3 +76,14 @@ tabs:
         max: 1
         uploads: assets/files
         required: false
+
+  # --- IMAGE MANAGEMENT ---
+  media:
+    label: Images Management
+    icon: image
+    sections:
+      all_images:
+        label: Audition Images
+        type: files
+        layout: cards
+        info: "{{ file.dimensions }}"

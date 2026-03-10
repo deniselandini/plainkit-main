@@ -12,7 +12,9 @@ $is_origin_allowed = in_array($origin, $allowed_origins);
 return [
     'debug' => true,
     'languages' => true,
-
+    'thumbs' => [
+            'driver' => 'gd'
+        ],
 
     'api' => [
         'allowInsecure' => true,

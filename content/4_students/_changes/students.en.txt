@@ -1,0 +1,122 @@
+Title: students
+
+----
+
+Intro-headline: The students
+
+----
+
+Intro-text: Studying stage dance at **CDSH** means not only learning, but also finding like-minded people and friends. You work intensively with people in your field every day. This fosters a diverse exchange and encourages personal development among dancers, choreographers, and performers.
+
+----
+
+Header-image: - file://qywqoyzq9pxqzw5r
+
+----
+
+Student-groups:
+
+- 
+  class_id: yuugen
+  class_name: Yugen
+  class_description_left: '“**Yūgen**” is an aesthetic concept in traditional Japanese art that describes the deep, mystical beauty of the unfathomable and the unseen. The term is often used in poetry, Nō theater (a traditional form of Japanese theater), and painting,'
+  class_description_right: >
+    emphasizing the feeling of connection to
+    something greater that is only hinted at
+    but never fully grasped. In art, Yūgen
+    is seen as the moment when an inner
+    truth is revealed through suggestion or
+    silence.
+  class_student_header: The students
+  class_names: >
+    Ana Sofía González Esparza, Angel
+    Jahir Negrete Valadez, Antonis
+    Lititaris, Chloe Brooks, Emilio Negrete,
+    Emilio Ángeles Calderón, Fabienne
+    Angelique Menzel, Giorgia Albertazzi,
+    Hitomi Daniela Hashimoto Teramoto,
+    Héctor Alberto Renteria Marin, Jemima
+    Simons, Joan Augustin, Loïs de Pechy,
+    Lux Rodriguez Groenevald, Milou Kester,
+    Mojtaba Zoghifard, Pedro Cacho Sedano,
+    Penny Hollis, Riccardo Boscaini
+  class_image:
+    - file://n2j69ljphj5yja1a
+  selected_projects: ""
+  class_year:
+    - 
+      start: 2024
+      end: 2027
+- 
+  class_id: ikigai
+  class_name: Ikigai
+  class_description_left: '“**Ikigai**” is a Japanese concept that means your reason for being or your purpose in life. It is unique to every person, it allows you to express yourself freely and truthfully, according to your own rules or values.'
+  class_description_right: >
+    As a group we are connected through the
+    search for our own ikigai, exploring our
+    unique traits, our role in the world
+    (community) and discovering what we want
+    to say as artists.
+  class_student_header: The students
+  class_names: >
+    Alva Nilsson, Ana Chuntisvili, Ana Paula
+    Salcido Roa, Aurora Pollini, Camila
+    Milton Frattari, Eleonora Poles, Emma
+    Steenblock, Fabio Camoirano, Giulia del
+    Grosso, Ida Zimmermann, Irene Lanzanò,
+    Karenina Lizama Leirana, Leonie Klamer,
+    Martina Vincenza Ventura, Melina
+    Papadopoulu, Milla Matthews, Orla Maria
+    Losardo, Peter Mani, Simone
+    Schachtschneider, Tara Thormann, Vignesh
+    Kumar, Yana Delibashev, Yareli Alejandra
+    Alvarado Macario
+  class_image:
+    - file://qsf0jcqcillvf2fx
+  selected_projects: aperception
+  class_year:
+    - 
+      start: 2023
+      end: 2026
+- 
+  class_id: ho’omau
+  class_name: Ho’omau
+  class_description_left: '**Ho’omau** signifies resilience and perseverance. As a class, we value and trust the process of growth, in the many different forms it may come in. By understanding that our journeys as artists won’t always be linear or necessarily'
+  class_description_right: >
+    smooth sailing, we are able to steady
+    each other and carry on together. We are
+    a group who keeps moving forward, no
+    matter the obstacles, and in doing so,
+    learns how to take care of each other as
+    dancers and most importantly, as people.
+  class_student_header: The students
+  class_names: 'Agnese Fornara Erbetta, Alanna Reimpell Bravo, Alessia Marra, Cristina Vaino, Daria Barbone, Daria Barbone, Denise Landini, Ellen Burgess, Emir García Pineda, Gina Kudzai Marange, Haeyeon Kang, Kyte Brüggmann, Luisa Fernanda Rivas Castillo, Nathalia Gómez Reséndiz, Oladé Roland Rodolpho Sagbo, Tatjana Walter, Wendy Yeh López,  Clara Bähr,  Edwin E. Sánchez,  Katherine Aileen Osalde Lezama,  Madeleine Julie Reichert'
+  class_image:
+    - file://0sszvdqv5cilq8r4
+  selected_projects: solo_project_2024, meeting_point
+  class_year:
+    - 
+      start: 2022
+      end: 2025
+- 
+  class_id: ""
+  class_name: ""
+  class_description_left: ""
+  class_description_right: ""
+  class_student_header: ""
+  class_names: ""
+  class_image: [ ]
+  selected_projects: ""
+  class_year: [ ]
+
+----
+
+Show-footer-cta: true
+
+----
+
+Uuid: a2b4ifvavoba6wgl
+
+----
+
+Lock: BGIVhZt0

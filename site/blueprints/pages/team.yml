@@ -24,6 +24,7 @@ tabs:
         label: Header Image (.png, .jpg, .jpeg)
         type: files
         max: 1
+        help: "Square format (1:1) and phone (16:9), 1200x1200px and phone 1280x720 recommended. Max file size: 1.5MB."
         query: page.images
 
       # --- SECTION 2: LEADERSHIP TEAM ---
@@ -96,6 +97,7 @@ tabs:
             label: Profile Picture (.png, .jpg, .jpeg)
             type: files
             max: 1
+            help: "Square format (1:1) and horizontal format (16:9), 1200x1200px and 1280x720. Max file size: 1.5MB."
             query: page.images
           member_roles:
             label: Role (Select from list)
@@ -163,6 +165,7 @@ tabs:
         label: Memoriam Image (.png, .jpg, .jpeg)
         type: files
         max: 1
+        help: "Portrait (2:3), 1000x1500px recommended. Max 1MB."
         query: page.images
 
       # --- SECTION 5: GENERAL TEACHERS/DOCENT INFO ---
@@ -235,6 +238,7 @@ tabs:
             label: Profile Picture (.png, .jpg, .jpeg)
             type: files
             max: 1
+            help: "Square format (1:1) and (16:9), 1200x1200px and 1280x720. Max file size: 1.5MB."
             query: page.images
           member_role:
             label: Role (Select from list)
@@ -294,3 +298,14 @@ tabs:
             label: Role Name
             type: text
             translate: true
+
+  # --- IMAGE MANAGEMENT ---
+  media:
+    label: Images Management
+    icon: image
+    sections:
+      all_images:
+        label: Team Images
+        type: files
+        layout: cards
+        info: "{{ file.dimensions }}"

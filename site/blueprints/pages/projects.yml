@@ -34,6 +34,7 @@ tabs:
             label: Header Image (.png, .jpg, .jpeg)
             type: files
             max: 1
+            help: "Horizontal photos (3:2), 2000x1333px. Max 2MB."
             query: page.images
           project_categories:
             label: Categories (e.g., Graduates 2021)
@@ -96,6 +97,7 @@ tabs:
           project_photo_impressions:
             label: Impressions images (.png, .jpg, .jpeg)
             type: files
+            help: "Horizontal photos (3:2), 2000x1333px. Max 2MB."
             layout: cards
             multiple: page.images
 
@@ -143,3 +145,14 @@ tabs:
             label: Subject Name
             type: text
             translate: true
+
+  # --- IMAGE MANAGEMENT ---
+  media:
+    label: Images Management
+    icon: image
+    sections:
+      all_images:
+        label: Projects Images
+        type: files
+        layout: cards
+        info: "{{ file.dimensions }}"

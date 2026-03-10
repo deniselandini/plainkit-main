@@ -17,6 +17,7 @@ tabs:
       header_image:
         label: Header Image (.png, .jpg, .jpeg)
         type: files
+        help: "Square format (1:1) and phone (16:9), 1200x1200px and phone 1280x720 recommended. Max file size: 1.5MB."
         max: 1
         query: page.images
 
@@ -158,6 +159,7 @@ tabs:
           image:
             label: Subject Image (.png, .jpg, .jpeg)
             type: files
+            help: "Portrait (2:3), 1000x1500px recommended. Max 1MB."
             max: 1
           categories:
             label: Category (Select from list)
@@ -318,6 +320,7 @@ tabs:
         label: Fortbuildung Image (.png, .jpg, .jpeg)
         type: files
         max: 1
+        help: "Portrait (2:3), 1000x1500px recommended. Max 1MB."
         query: page.images
 
       # --- SECTION 10: AKTUELLES ---
@@ -361,3 +364,15 @@ tabs:
           category_name:
             label: Category Name
             type: text
+
+
+  # --- IMAGE MANAGEMENT ---
+  media:
+    label: Images Management
+    icon: image
+    sections:
+      all_images:
+        label: Education Images
+        type: files
+        layout: cards
+        info: "{{ file.dimensions }}"

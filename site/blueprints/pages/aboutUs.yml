@@ -1,5 +1,5 @@
 title: About Us
-icon: info
+icon: question
 
 tabs:
   content:
@@ -25,6 +25,7 @@ tabs:
         label: Header Image (.png, .jpg, .jpeg)
         type: files
         max: 1
+        help: "Square format (1:1) and phone (16:9), 1200x1200px and phone 1280x720 recommended. Max file size: 1.5MB."
         query: page.images
 
       # --- SECTION 2: COLORED DESCRIPTION ---
@@ -64,7 +65,7 @@ tabs:
       line_3:
         type: line
       section_split:
-        label: 4. Split Sections (Image + Text) (.png, .jpg, .jpeg)
+        label: 4. Split Sections (Image + Text)
         type: headline
       split_sections:
         label: Content Blocks
@@ -83,6 +84,7 @@ tabs:
               - ol
           image:
             label: Image (.png, .jpg, .jpeg)
+            help: "Portrait (2:3), 1000x1500px. Max 1MB."
             type: files
             max: 1
 
@@ -155,6 +157,7 @@ tabs:
         label: Director Image (.png, .jpg, .jpeg)
         type: files
         max: 1
+        help: "Portrait (2:3), 1000x1500px. Max 1MB."
       concept_name:
         label: Name
         type: text
@@ -174,9 +177,21 @@ tabs:
       rooms_gallery:
         label: Gallery Images (.png, .jpg, .jpeg)
         type: files
+        help: "Horizontal photos (3:2), 2000x1333px. Max 2MB."
 
       # --- SECTION 9: FOOTER CTA ---
       line_8:
         type: line
       footer_cta:
         extends: fields/footer_cta
+
+# --- IMAGE MANAGEMENT ---
+  media:
+    label: Images Management
+    icon: image
+    sections:
+      all_images:
+        label: About Us Images
+        type: files
+        layout: cards
+        info: "{{ file.dimensions }}"

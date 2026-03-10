@@ -100,3 +100,14 @@ tabs:
         type: line
       footer_cta:
         extends: fields/footer_cta
+
+# --- IMAGE MANAGEMENT ---
+  media:
+    label: Images Management
+    icon: image
+    sections:
+      all_images:
+        label: Home Images
+        type: files
+        layout: cards
+        info: "{{ file.dimensions }}"
