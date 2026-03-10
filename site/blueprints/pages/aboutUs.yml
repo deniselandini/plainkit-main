@@ -22,7 +22,7 @@ tabs:
           - ol
         size: small
       header_image:
-        label: Header Image
+        label: Header Image (.png, .jpg, .jpeg)
         type: files
         max: 1
         query: page.images
@@ -64,7 +64,7 @@ tabs:
       line_3:
         type: line
       section_split:
-        label: 4. Split Sections (Image + Text)
+        label: 4. Split Sections (Image + Text) (.png, .jpg, .jpeg)
         type: headline
       split_sections:
         label: Content Blocks
@@ -82,17 +82,9 @@ tabs:
               - ul
               - ol
           image:
-            label: Image
+            label: Image (.png, .jpg, .jpeg)
             type: files
             max: 1
-          reverse:
-            label: Reverse Layout (Image on Left)
-            type: toggle
-            text: ["No", "Yes"]
-          bottom_border:
-            label: Bottom Border (Usually for the last item)
-            type: toggle
-            text: ["No", "Yes"]
 
       # --- SECTION 5: COOPERATIONS ---
       line_4:
@@ -103,13 +95,26 @@ tabs:
       cooperations_title:
         label: Title
         type: text
-      cooperations_list:
+      cooperations_list: # --- o solo nome, o solo logo o entrambi ---
         label: Partner List
         type: structure
         fields:
           name:
             label: Partner Name
             type: text
+            required: false
+
+          link:
+            label: Partner Link
+            type: url
+            required: false
+
+          logo:
+            label: Partner Logo 
+            type: files
+            max: 1
+            layout: cards
+            required: false
 
       # --- SECTION 6: BANNER 2 ---
       line_5:
@@ -147,7 +152,7 @@ tabs:
           - ul
           - ol
       concept_image:
-        label: Director Image
+        label: Director Image (.png, .jpg, .jpeg)
         type: files
         max: 1
       concept_name:
@@ -167,7 +172,7 @@ tabs:
         label: Gallery Title
         type: text
       rooms_gallery:
-        label: Gallery Images
+        label: Gallery Images (.png, .jpg, .jpeg)
         type: files
 
       # --- SECTION 9: FOOTER CTA ---

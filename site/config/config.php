@@ -19,6 +19,20 @@ return [
 
         'routes' => [
             [
+                'pattern' => 'reset-password/(:any)',
+                'method' => 'GET',
+                'action' => function ($email) {
+                    try {
+                        kirby()->auth()->createChallenge($email, false, 'password-reset');
+                    } catch (\Exception $e) {
+                        return new Response($e->getMessage(), 'text/plain', 400);
+                    }
+
+                    return Response::redirect('panel/login');
+                }
+            ],
+
+            [
                 'pattern' => '(:all)',
                 'method' => 'OPTIONS',
                 'action' => function () use ($origin, $is_origin_allowed) {
@@ -321,6 +335,19 @@ return [
                     'message' => 'API is alive and ready.',
                     'timestamp' => time()
                 ];
+            }
+        ],
+        [
+            'pattern' => 'reset-password/(:any)',
+            'method' => 'GET',
+            'action' => function ($email) {
+                try {
+                    kirby()->auth()->createChallenge($email, false, 'password-reset');
+                } catch (\Exception $e) {
+                    return new Response($e->getMessage(), 'text/plain', 400);
+                }
+
+                return Response::redirect('plainkit-main/panel/login');
             }
         ],
     ]

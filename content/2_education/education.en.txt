@@ -362,7 +362,7 @@ Categories-manager:
   category_name: Theory Subjects
 - 
   category_id: workshops
-  category_name: Workshops
+  category_name: Guest choreographer
 
 ----
 

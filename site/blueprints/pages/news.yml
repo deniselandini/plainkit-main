@@ -21,7 +21,7 @@ tabs:
           - ul
           - ol
       header_image:
-        label: Header Image
+        label: Header Image (.png, .jpg, .jpeg)
         type: files
         max: 1
 
@@ -52,7 +52,14 @@ tabs:
             label: Title
             type: text
           projectId:
-            label: Project
+            label: Project (Select from Projects)
+            help: |
+                This section is managed from Projects page.
+                To update it:
+                1) Go to "Site"
+                2) Click on "Pages" -> "projects"
+                3) Edit the entries
+                4) Save your changes
             type: select
             options: query
             query:
@@ -64,7 +71,7 @@ tabs:
             type: textarea
             buttons: false
           image:
-            label: Image
+            label: Image (.png, .jpg, .jpeg)
             type: files
             max: 1
 

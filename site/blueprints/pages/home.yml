@@ -29,7 +29,7 @@ tabs:
           - ul
           - ol
       header_video:
-        label: Header Video
+        label: Header Video (.mp4)
         type: files
         max: 1
         query: page.video
@@ -42,7 +42,15 @@ tabs:
         type: headline
       aktuelles_headline:
         label: Aktuelles Headline
+        help: |
+          This section is managed from News page.
+          To update it:
+          1) Go to "Site"
+          2) Click on "Pages" -> "news"
+          3) Edit the entries in "3. News Feed"
+          4) Save your changes
         type: text
+
 
       # --- SECTION 4: TEAM ---
       line_2:
@@ -65,7 +73,7 @@ tabs:
           - ol
 
       team_image:
-        label: Team Image
+        label: Team Image (.png, .jpg, .jpeg)
         type: files
         max: 1
         query: page.images

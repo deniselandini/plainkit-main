@@ -9,8 +9,6 @@ $splitSections = $page->split_sections()->toStructure()->map(function ($section)
     return [
         'title' => $section->title()->value(),
         'text' => $section->text()->value(),
-        'reverse' => $section->reverse()->toBool(),
-        'bottom' => $section->bottom_border()->toBool(),
         'img' => [
             'src' => $img ? $img->url() : null,
             'alt' => $section->title()->value()
@@ -18,9 +16,14 @@ $splitSections = $page->split_sections()->toStructure()->map(function ($section)
     ];
 })->values();
 
-
 $cooperations = $page->cooperations_list()->toStructure()->map(function ($item) {
-    return $item->name()->value();
+    $logoFile = $item->logo()->toFile();
+    return [
+        'name' => $item->name()->value(),
+        'link' => $item->link()->value(),
+        'logo' => $logoFile ? $logoFile->url() : null,
+        'logo_alt' => $logoFile ? $logoFile->alt()->value() : $item->name()->value()
+    ];
 })->values();
 
 $rooms = $page->rooms_gallery()->toFiles()->map(function ($file) {

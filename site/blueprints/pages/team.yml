@@ -21,7 +21,7 @@ tabs:
           - ul
           - ol
       header_image:
-        label: Header Image
+        label: Header Image (.png, .jpg, .jpeg)
         type: files
         max: 1
         query: page.images
@@ -93,12 +93,19 @@ tabs:
             size: medium
             help: Detailed biography for the member's dedicated page.
           member_image:
-            label: Profile Picture
+            label: Profile Picture (.png, .jpg, .jpeg)
             type: files
             max: 1
             query: page.images
           member_roles:
             label: Role (Select from list)
+            help: |
+                This section is managed from the Role section.
+                To update it:
+                1) Go to the top of this page 
+                2) Click on "Roles"
+                3) Edit the entries
+                4) Save your changes
             type: multiselect
             options: query
             query:
@@ -107,6 +114,13 @@ tabs:
               value: "{{ item.role_name }}"
           member_subjects:
             label: Subjects (Select from Education)
+            help: |
+                This section is managed from Education page.
+                To update it:
+                1) Go to "Site"
+                2) Click on "Pages" -> "education"
+                3) Edit the entries in "4. Subjects List"
+                4) Save your changes
             type: multiselect
             options: query
             query:
@@ -146,7 +160,7 @@ tabs:
         width: 1/2
 
       memoriam_image:
-        label: Memoriam Image
+        label: Memoriam Image (.png, .jpg, .jpeg)
         type: files
         max: 1
         query: page.images
@@ -218,12 +232,19 @@ tabs:
             size: medium
             help: Detailed biography for the member's dedicated page.
           member_image:
-            label: Profile Picture
+            label: Profile Picture (.png, .jpg, .jpeg)
             type: files
             max: 1
             query: page.images
           member_role:
             label: Role (Select from list)
+            help: |
+                This section is managed from the Role section.
+                To update it:
+                1) Go to the top of this page 
+                2) Click on "Roles"
+                3) Edit the entries
+                4) Save your changes
             type: multiselect
             options: query
             query:
@@ -232,6 +253,13 @@ tabs:
               value: "{{ item.role_name }}"
           member_subjects:
             label: Subjects (Select from Education)
+            help: |
+                This section is managed from Education page.
+                To update it:
+                1) Go to "Site"
+                2) Click on "Pages" -> "education"
+                3) Edit the entries in "4. Subjects List"
+                4) Save your changes
             type: multiselect
             options: query
             query:

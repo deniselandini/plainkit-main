@@ -24,7 +24,7 @@ tabs:
           - ol
 
       header_image:
-        label: Header Image
+        label: Header Image (.png, .jpg, .jpeg)
         type: files
         max: 1
         query: page.images

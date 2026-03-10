@@ -33,7 +33,7 @@ Split-sections:
   text: 'We foster the development of  **individual artistic personality.** This is based on a solid foundation in established dance styles.'
   image:
     - file://is3x30qu9eadb7wv
-  reverse: 'false'
+  reverse: 'true'
   bottom_border: 'false'
 - 
   title: 'Support & Cooperation'
@@ -47,7 +47,7 @@ Split-sections:
   text: 'We develop targeted **choreographies** and gain extensive **experience** on local stages and at events during our training.'
   image:
     - file://9cxie6b7sh5cukyd
-  reverse: 'false'
+  reverse: 'true'
   bottom_border: 'true'
 
 ----
@@ -60,18 +60,32 @@ Cooperations-list:
 
 - 
   name: Logo placeholder
+  link: ""
+  logo: [ ]
 - 
   name: Logo placeholder
+  link: ""
+  logo: [ ]
 - 
   name: Logo placeholder
+  link: ""
+  logo: [ ]
 - 
   name: Logo placeholder
+  link: ""
+  logo: [ ]
 - 
   name: Logo placeholder
+  link: ""
+  logo: [ ]
 - 
   name: Logo placeholder
+  link: ""
+  logo: [ ]
 - 
   name: Logo placeholder
+  link: ""
+  logo: [ ]
 
 ----
 

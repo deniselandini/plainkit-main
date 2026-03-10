@@ -31,12 +31,19 @@ tabs:
             type: text
             required: true
           header_image:
-            label: Header Image
+            label: Header Image (.png, .jpg, .jpeg)
             type: files
             max: 1
             query: page.images
           project_categories:
             label: Categories (e.g., Graduates 2021)
+            help: |
+                This section is managed from the Categories section.
+                To update it:
+                1) Go to the top of this page 
+                2) Click on "Categories"
+                3) Edit the entries
+                4) Save your changes
             type: select
             options: query
             query:
@@ -45,6 +52,13 @@ tabs:
               value: "{{ item.category_name }}"
           project_subjects:
             label: Subjects (e.g., Choreography)
+            help: |
+                This section is managed from the Subjects section.
+                To update it:
+                1) Go to the top of this page 
+                2) Click on "Subjects"
+                3) Edit the entries
+                4) Save your changes
             type: select
             options: query
             query:
@@ -74,13 +88,13 @@ tabs:
             type: text
             required: true
           project_video_impressions:
-            label: Impressions (Video)
+            label: Impressions video (.mp4)
             type: files
             layout: cards
             multiple: true
             uery: page.video
           project_photo_impressions:
-            label: Impressions (Photo)
+            label: Impressions images (.png, .jpg, .jpeg)
             type: files
             layout: cards
             multiple: page.images

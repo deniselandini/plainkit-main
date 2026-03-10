@@ -15,7 +15,7 @@ tabs:
         type: text
 
       header_image:
-        label: Header Image
+        label: Header Image (.png, .jpg, .jpeg)
         type: files
         max: 1
         query: page.images
@@ -80,11 +80,11 @@ tabs:
         type: text
 
       subjects_ball_1_title:
-        label: Subject group 1 title
+        label: Subject group 1 title (the biggest ball)
         type: text
 
       subjects_ball_1_description:
-        label: Subject group 1 description
+        label: Subject group 1 description (the biggest ball)
         type: text
 
       subjects_ball_2_title:
@@ -114,11 +114,11 @@ tabs:
 
       
       subjects_ball_5_title:
-        label: Subject group 5 title
+        label: Subject group 5 title (the smallest ball)
         type: text
 
       subjects_ball_5_description:
-        label: Subject group 5 description
+        label: Subject group 5 description (the smallest ball)
         type: text
 
       # --- SECTION 5: SUBJECTS SELECTOR ---
@@ -156,11 +156,18 @@ tabs:
               - ul
               - ol
           image:
-            label: Subject Image
+            label: Subject Image (.png, .jpg, .jpeg)
             type: files
             max: 1
           categories:
             label: Category (Select from list)
+            help: |
+                This section is managed from the Categories section.
+                To update it:
+                1) Go to the top of this page 
+                2) Click on "Categories"
+                3) Edit the entries
+                4) Save your changes
             type: multiselect
             options: query
             query:
@@ -308,7 +315,7 @@ tabs:
           - ol
 
       fortbuildung_image:
-        label: Fortbuildung Image
+        label: Fortbuildung Image (.png, .jpg, .jpeg)
         type: files
         max: 1
         query: page.images
@@ -321,7 +328,15 @@ tabs:
         type: headline
       aktuelles_headline:
         label: Aktuelles Headline
+        help: |
+          This section is managed from News page.
+          To update it:
+          1) Go to "Site"
+          2) Click on "Pages" -> "news"
+          3) Edit the entries in "3. News Feed"
+          4) Save your changes
         type: text
+        
 
       # --- SECTION 11: FOOTER CTA ---
       line_10:

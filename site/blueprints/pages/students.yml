@@ -24,7 +24,7 @@ tabs:
           - ol
       
       header_image:
-        label: Header Image
+        label: Header Image (.png, .jpg, .jpeg)
         type: files
         max: 1
         query: page.images
@@ -84,12 +84,19 @@ tabs:
             buttons: false
             help: Name and surname of each student belonginig to the class
           class_image:
-            label: Class Picture
+            label: Class Picture (.png, .jpg, .jpeg)
             type: files
             max: 1
             query: page.images
           selected_projects:
-            label: Projects for this Class
+            label: Projects for this Class (Select from Projects)
+            help: |
+                This section is managed from Projects page.
+                To update it:
+                1) Go to "Site"
+                2) Click on "Pages" -> "projects"
+                3) Edit the entries
+                4) Save your changes
             type: multiselect
             options: query
             query:
