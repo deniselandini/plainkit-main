@@ -3,7 +3,8 @@ use Kirby\Http\Response;
 
 $allowed_origins = [
     'http://localhost:3000',
-    'http://localhost:3001'
+    'http://localhost:3001',
+    'https://www.new.cdsh.de',
 ];
 
 $origin = $_SERVER['HTTP_ORIGIN'] ?? null;
@@ -18,7 +19,6 @@ return [
 
     'api' => [
         'allowInsecure' => true,
-
         'routes' => [
             [
                 'pattern' => 'reset-password/(:any)',
