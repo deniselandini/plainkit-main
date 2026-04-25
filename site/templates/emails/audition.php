@@ -9,13 +9,13 @@
 <p><strong>Telefon:</strong> <?= esc($data['telefon'] ?? '-') ?></p>
 
 <p><strong>Audition Auswahl:</strong><br>
-<?= esc(implode(', ', (array)($data['audition_selection'] ?? []))) ?>
+  <?= esc(implode(', ', $audition_selection ?? [])) ?>
 </p>
 
 <p><strong>Erfahrung:</strong><br>
-<?= esc(implode(', ', (array)($data['erf_mog_list'] ?? []))) ?>
+  <?= esc(implode(', ', $erf_mog_list ?? [])) ?>
 </p>
 
 <p><strong>Zusätzliche Fähigkeiten:</strong><br>
-<?= nl2br(esc($data['zusatzliche_fahigkeiten'])) ?>
+  <?= nl2br(esc($zusatzliche_fahigkeiten ?? 'Keine')) ?>
 </p>
