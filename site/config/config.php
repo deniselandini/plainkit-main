@@ -235,21 +235,62 @@ return [
                     $request = kirby()->request();
                     $data = $request->data();
                     $files = $request->files();
+                    $getArray = function ($key) use ($data) {
+                        if (isset($data[$key])) {
+                            return is_array($data[$key])
+                                ? $data[$key]
+                                : array_filter(array_map('trim', explode(',', $data[$key])));
+                        }
+
+                        if (isset($data[$key . '[]'])) {
+                            return is_array($data[$key . '[]'])
+                                ? $data[$key . '[]']
+                                : [$data[$key . '[]']];
+                        }
+
+                        return [];
+                    };
+                    $getBool = function ($key) use ($data) {
+                        if (!isset($data[$key]))
+                            return false;
+                        return filter_var($data[$key], FILTER_VALIDATE_BOOLEAN);
+                    };
+
+                    $normalized = [
+                        'vorname' => $data['vorname'] ?? '',
+                        'nachname' => $data['nachname'] ?? '',
+                        'geburtsdatum' => $data['geburtsdatum'] ?? '',
+                        'email' => $data['email'] ?? '',
+                        'telefon' => $data['telefon'] ?? '',
+                        'strasse' => $data['strasse'] ?? '',
+                        'hausnummer' => $data['hausnummer'] ?? '',
+                        'plz' => $data['plz'] ?? '',
+                        'ort' => $data['ort'] ?? '',
+                        'muttersprache' => $data['muttersprache'] ?? '',
+                        'audition_selection' => $getArray('audition_selection'),
+                        'erf_mog_list' => $getArray('erf_mog_list'),
+                        'zusatzliche_fahigkeiten' => $data['zusatzliche_fahigkeiten'] ?? '',
+                        'accept_data_verbindliche_anmeldung' => $getBool('accept_data_verbindliche_anmeldung'),
+                        'accept_data_datenschutz' => $getBool('accept_data_datenschutz'),
+                    ];
 
                     $required = [
                         'vorname',
                         'nachname',
                         'geburtsdatum',
-                        'email',
-                        'accept_data_verbindliche_anmeldung',
-                        'accept_data_datenschutz'
+                        'email'
                     ];
 
                     foreach ($required as $field) {
-                        if (empty($data[$field])) {
+                        if (empty($normalized[$field])) {
                             return response::json(['error' => "Missing field: $field"], 400);
                         }
                     }
+
+                    if (!$normalized['accept_data_verbindliche_anmeldung'] || !$normalized['accept_data_datenschutz']) {
+                        return response::json(['error' => 'You must accept required terms'], 400);
+                    }
+
                     $picture = $files->get('picture');
 
                     if (!$picture) {
@@ -260,19 +301,21 @@ return [
                         kirby()->email([
                             'to' => 'auditions@cdsh.de', // Email of who is receiving the audition
                             'from' => 'no-reply@cdsh.de',   // username SMTP
-                            'replyTo' => $data['email'],
-                            'subject' => 'New Candidate from Audition form: ' . $data['vorname'] . ' ' . $data['nachname'],
+                            'replyTo' => $normalized['email'],
+                            'subject' => 'New Audition: ' . $normalized['vorname'] . ' ' . $normalized['nachname'],
                             'template' => 'audition',
                             'data' => [
-                                'vorname' => $data['vorname'],
-                                'nachname' => $data['nachname'],
-                                'email' => $data['email'],
-                                'geburtsdatum' => $data['geburtsdatum'],
-                                'telefono' => $data['telefon'] ?? 'N/A',
-                                'indirizzo' => ($data['strasse'] ?? '') . ' ' . ($data['hausnummer'] ?? ''),
-                                'citta' => ($data['plz'] ?? '') . ' ' . ($data['ort'] ?? ''),
-                                'lingua' => $data['muttersprache'] ?? '',
-                                // Add here other field we want to see in the email
+                                'vorname' => $normalized['vorname'],
+                                'nachname' => $normalized['nachname'],
+                                'email' => $normalized['email'],
+                                'geburtsdatum' => $normalized['geburtsdatum'],
+                                'telefon' => $normalized['telefon'] ?: 'N/A',
+                                'address' => trim($normalized['strasse'] . ' ' . $normalized['hausnummer']),
+                                'stadt' => trim($normalized['plz'] . ' ' . $normalized['ort']),
+                                'sprache' => $normalized['muttersprache'],
+                                'audition_selection' => $normalized['audition_selection'] ?? [],
+                                'erf_mog_list' => $normalized['erf_mog_list'] ?? [],
+                                'zusatzliche_fahigkeiten' => $normalized['zusatzliche_fahigkeiten'] ?? '',
                             ],
                             'attachments' => [
                                 $picture['tmp_name'] // attachments
