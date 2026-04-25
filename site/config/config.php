@@ -14,8 +14,8 @@ return [
     'debug' => true,
     'languages' => true,
     'thumbs' => [
-            'driver' => 'gd'
-        ],
+        'driver' => 'gd'
+    ],
 
     'api' => [
         'allowInsecure' => true,
@@ -219,6 +219,79 @@ return [
                     return require kirby()->root('templates') . '/auditions.json.php';
                 }
             ],
+            [
+                'pattern' => 'form/audition',
+                'method' => 'POST|OPTIONS',
+                'action' => function () {
+
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    header('Access-Control-Allow-Methods: POST, OPTIONS');
+                    header('Access-Control-Allow-Headers: Content-Type, Authorization');
+
+                    if (kirby()->request()->method() === 'OPTIONS') {
+                        return response::json([], 200);
+                    }
+
+                    $request = kirby()->request();
+                    $data = $request->data();
+                    $files = $request->files();
+
+                    $required = [
+                        'vorname',
+                        'nachname',
+                        'geburtsdatum',
+                        'email',
+                        'accept_data_verbindliche_anmeldung',
+                        'accept_data_datenschutz'
+                    ];
+
+                    foreach ($required as $field) {
+                        if (empty($data[$field])) {
+                            return response::json(['error' => "Missing field: $field"], 400);
+                        }
+                    }
+                    $picture = $files->get('picture');
+
+                    if (!$picture) {
+                        return response::json(['error' => 'Picture profile required'], 400);
+                    }
+
+                    try {
+                        kirby()->email([
+                            'to' => 'auditions@cdsh.de', // Email of who is receiving the audition
+                            'from' => 'no-reply@cdsh.de',   // username SMTP
+                            'replyTo' => $data['email'],
+                            'subject' => 'New Candidate from Audition form: ' . $data['vorname'] . ' ' . $data['nachname'],
+                            'template' => 'audition',
+                            'data' => [
+                                'vorname' => $data['vorname'],
+                                'nachname' => $data['nachname'],
+                                'email' => $data['email'],
+                                'geburtsdatum' => $data['geburtsdatum'],
+                                'telefono' => $data['telefon'] ?? 'N/A',
+                                'indirizzo' => ($data['strasse'] ?? '') . ' ' . ($data['hausnummer'] ?? ''),
+                                'citta' => ($data['plz'] ?? '') . ' ' . ($data['ort'] ?? ''),
+                                'lingua' => $data['muttersprache'] ?? '',
+                                // Add here other field we want to see in the email
+                            ],
+                            'attachments' => [
+                                $picture['tmp_name'] // attachments
+                            ]
+                        ]);
+
+                        return response::json([
+                            'status' => 'success',
+                            'message' => 'Candidacy sent succesfully'
+                        ]);
+
+                    } catch (Exception $e) {
+                        return response::json([
+                            'status' => 'error',
+                            'message' => 'Error: ' . $e->getMessage()
+                        ], 500);
+                    }
+                }
+            ],
 
             // NEWS
             [
@@ -353,8 +426,8 @@ return [
         ],
         [
             'pattern' => 'form/audition',
-            'method'  => 'POST|OPTIONS',
-            'action'  => function () {
+            'method' => 'POST|OPTIONS',
+            'action' => function () {
 
                 header('Access-Control-Allow-Origin: http://localhost:3000');
                 header('Access-Control-Allow-Methods: POST, OPTIONS');
@@ -364,65 +437,65 @@ return [
                 if (kirby()->request()->method() === 'OPTIONS') {
                     return response::json([], 200);
                 }
-                    
+
                 $request = kirby()->request();
-                $data  = $request->data();
+                $data = $request->data();
                 $files = $request->files();
 
                 // Required fields (mirror your Yup rules)
                 $required = [
-                'vorname',
-                'nachname',
-                'geburtsdatum',
-                'email',
-                'accept_data_verbindliche_anmeldung',
-                'accept_data_datenschutz'
+                    'vorname',
+                    'nachname',
+                    'geburtsdatum',
+                    'email',
+                    'accept_data_verbindliche_anmeldung',
+                    'accept_data_datenschutz'
                 ];
 
                 foreach ($required as $field) {
-                if (empty($data[$field])) {
-                    return response::json([
-                    'error' => "Missing field: $field"
-                    ], 400);
-                }
+                    if (empty($data[$field])) {
+                        return response::json([
+                            'error' => "Missing field: $field"
+                        ], 400);
+                    }
                 }
 
                 // File validation
                 $picture = $files->get('durchsuchen');
 
                 if (empty($picture)) {
-                return response::json(['error' => 'Portrait photo required'], 400);
+                    return response::json(['error' => 'Portrait photo required'], 400);
                 }
 
                 if ($picture['size'] > 3 * 1024 * 1024) {
-                return response::json(['error' => 'File too large'], 400);
+                    return response::json(['error' => 'File too large'], 400);
                 }
 
                 $allowed = ['image/jpeg', 'image/png', 'image/gif', 'image/bmp'];
                 if (!in_array($picture['type'], $allowed)) {
-                return response::json(['error' => 'Invalid file type'], 400);
+                    return response::json(['error' => 'Invalid file type'], 400);
                 }
 
                 // Send email
                 kirby()->email([
-                'to'      => 'auditions@cdsh.de',
-                'from'    => 'no-reply@cdsh.de',
-                'replyTo' => $data['email'],
-                'subject' => 'Neue Audition-Anmeldung',
-                'html'    => tpl::load(kirby()->root('templates') . '/emails/audition.php', [
-                    'data' => $data
-                ]),
-                'attachments' => [
-                    [
-                    'file' => $picture['tmp_name'],
-                    'name' => $picture['name']
+                    'to' => 'auditions@cdsh.de',
+                    'from' => 'no-reply@cdsh.de',
+                    'replyTo' => $data['email'],
+                    'subject' => 'Neue Audition-Anmeldung',
+                    'html' => tpl::load(kirby()->root('templates') . '/emails/audition.php', [
+                        'data' => $data
+                    ]),
+                    'attachments' => [
+                        [
+                            'file' => $picture['tmp_name'],
+                            'name' => $picture['name']
+                        ]
                     ]
-                ]
                 ]);
 
                 return response::json([
-                'status' => 'ok',
-                'message' => 'POST route reached'
+                    'status' => 'ok',
+                    'message' => 'POST route reached'
                 ]);
 
                 return response::json(['success' => true]);
