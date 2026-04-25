@@ -322,6 +322,18 @@ return [
         ],
     ],
 
+    'email' => [
+        'transport' => [
+            'type' => 'smtp',
+            'host' => $_ENV['SMTP_HOST'] ?? null,
+            'port' => 587,
+            'security' => 'tls',
+            'auth' => true,
+            'username' => $_ENV['SMTP_USER'] ?? null,
+            'password' => $_ENV['SMTP_PASS'] ?? null,
+        ]
+    ],
+
     // ===================================
     // 2. ROTTE ESTERNE NON-API (Opzionale)
     // ===================================
@@ -337,6 +349,83 @@ return [
                     'message' => 'API is alive and ready.',
                     'timestamp' => time()
                 ];
+            }
+        ],
+        [
+            'pattern' => 'form/audition',
+            'method'  => 'POST|OPTIONS',
+            'action'  => function () {
+
+                header('Access-Control-Allow-Origin: http://localhost:3000');
+                header('Access-Control-Allow-Methods: POST, OPTIONS');
+                header('Access-Control-Allow-Headers: Content-Type, Authorization');
+                header('Access-Control-Allow-Credentials: true');
+
+                if (kirby()->request()->method() === 'OPTIONS') {
+                    return response::json([], 200);
+                }
+                    
+                $request = kirby()->request();
+                $data  = $request->data();
+                $files = $request->files();
+
+                // Required fields (mirror your Yup rules)
+                $required = [
+                'vorname',
+                'nachname',
+                'geburtsdatum',
+                'email',
+                'accept_data_verbindliche_anmeldung',
+                'accept_data_datenschutz'
+                ];
+
+                foreach ($required as $field) {
+                if (empty($data[$field])) {
+                    return response::json([
+                    'error' => "Missing field: $field"
+                    ], 400);
+                }
+                }
+
+                // File validation
+                $picture = $files->get('durchsuchen');
+
+                if (empty($picture)) {
+                return response::json(['error' => 'Portrait photo required'], 400);
+                }
+
+                if ($picture['size'] > 3 * 1024 * 1024) {
+                return response::json(['error' => 'File too large'], 400);
+                }
+
+                $allowed = ['image/jpeg', 'image/png', 'image/gif', 'image/bmp'];
+                if (!in_array($picture['type'], $allowed)) {
+                return response::json(['error' => 'Invalid file type'], 400);
+                }
+
+                // Send email
+                kirby()->email([
+                'to'      => 'auditions@cdsh.de',
+                'from'    => 'no-reply@cdsh.de',
+                'replyTo' => $data['email'],
+                'subject' => 'Neue Audition-Anmeldung',
+                'html'    => tpl::load(kirby()->root('templates') . '/emails/audition.php', [
+                    'data' => $data
+                ]),
+                'attachments' => [
+                    [
+                    'file' => $picture['tmp_name'],
+                    'name' => $picture['name']
+                    ]
+                ]
+                ]);
+
+                return response::json([
+                'status' => 'ok',
+                'message' => 'POST route reached'
+                ]);
+
+                return response::json(['success' => true]);
             }
         ],
         [

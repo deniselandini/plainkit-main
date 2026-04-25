@@ -60,32 +60,36 @@ Cooperations-list:
 
 - 
   name: Logo placeholder
+  link: https://www.cdsh.de/
+  logo: [ ]
+- 
+  name: Logo placeholder
+  link: https://www.cdsh.de/
+  logo:
+    - file://veyjxidaog1qb8xx
+- 
+  name: Logo placeholder
   link: ""
+  logo:
+    - file://33zd5cexaetely3c
+- 
+  name: Logo placeholder
+  link: ""
+  logo:
+    - file://veyjxidaog1qb8xx
+- 
+  name: Logo placeholder
+  link: https://www.cdsh.de/
+  logo: [ ]
+- 
+  name: Logo placeholder
+  link: https://www.cdsh.de/
   logo: [ ]
 - 
   name: Logo placeholder
   link: ""
-  logo: [ ]
-- 
-  name: Logo placeholder
-  link: ""
-  logo: [ ]
-- 
-  name: Logo placeholder
-  link: ""
-  logo: [ ]
-- 
-  name: Logo placeholder
-  link: ""
-  logo: [ ]
-- 
-  name: Logo placeholder
-  link: ""
-  logo: [ ]
-- 
-  name: Logo placeholder
-  link: ""
-  logo: [ ]
+  logo:
+    - file://veyjxidaog1qb8xx
 
 ----
 

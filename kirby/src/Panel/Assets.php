@@ -328,7 +328,7 @@ class Assets
 
 		// port 3000 of the current Kirby request
 		return rtrim($this->kirby->request()->url([
-			'port'   => 3000,
+			'port'   => 3001,
 			'path'   => null,
 			'params' => null,
 			'query'  => null
