@@ -391,16 +391,19 @@ return [
                 $picture = $files->get('durchsuchen');
 
                 if (empty($picture)) {
-                return response::json(['error' => 'Portrait photo required'], 400);
+                    return response::json(['error' => 'Portrait photo required: ['.$picture.']'], 400);
+                }
+                if ($picture['error'] !== UPLOAD_ERR_OK) {
+                    return response::json(['error' => 'Upload failed'], 400);
                 }
 
                 if ($picture['size'] > 3 * 1024 * 1024) {
-                return response::json(['error' => 'File too large'], 400);
+                    return response::json(['error' => 'File too large'], 400);
                 }
 
                 $allowed = ['image/jpeg', 'image/png', 'image/gif', 'image/bmp'];
                 if (!in_array($picture['type'], $allowed)) {
-                return response::json(['error' => 'Invalid file type'], 400);
+                    return response::json(['error' => 'Invalid file type'], 400);
                 }
 
                 // Send email
@@ -409,14 +412,12 @@ return [
                 'from'    => 'no-reply@cdsh.de',
                 'replyTo' => $data['email'],
                 'subject' => 'Neue Audition-Anmeldung',
+                'body' => "Neue Audition-Anmeldung von {$data['vorname']} {$data['nachname']}",
                 'html'    => tpl::load(kirby()->root('templates') . '/emails/audition.php', [
                     'data' => $data
                 ]),
                 'attachments' => [
-                    [
-                    'file' => $picture['tmp_name'],
-                    'name' => $picture['name']
-                    ]
+                    $picture['tmp_name']
                 ]
                 ]);
 
